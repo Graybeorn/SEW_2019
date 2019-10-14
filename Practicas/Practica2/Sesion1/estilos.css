@@ -48,19 +48,42 @@ p::first-letter {
 
 h1,h2,h3,h3,h4,h5,h6 {
     background-color: rgb(65, 10, 10,100);
-    color: brown;
+    color: rgb(255, 179, 179);
 }
 
 p {
-    background-color: rgba(65,10,10,100);
-    color: brown;
+    background-color: rgba(65,10,10,500);
+    color: rgb(255, 179, 179);
 }
 
 /* TAREA 4 */
 body {
     background-color: gray;
-    background-image: "resources/background.jpg";
+    background-image: url("resources/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+/* TAREA 5 */
+
+h1, h2, h3, h4, h5, h6 {
+    fill: burlywood;
+    margin: 20%;
+    align-content: center;    
+    text-transform: capitalize;
+}
+
+h1 {
+    letter-spacing: 2em;
+    border-radius: 15%;
+}
+
+p {
+    text-justify: inter-word;
+    text-align: left;
+}
+
+/* TAREA 6 */
+a {
 
 }
