@@ -91,15 +91,15 @@ a{                      /*(0,0,1)*/
 
 a:link{                 /*(0,1,1)*/
     color: orange;
-    text-decoration-style: dotted;
     text-decoration-line: underline;
+    text-decoration-style: dotted;
     
 }
 
 a:visited {             /*(0,1,1)*/
     color: orangered;
-    text-decoration-style: solid;
     text-decoration-line: underline;
+    text-decoration-style: solid;
 }
 
 /* TAREA 7 */
@@ -110,6 +110,7 @@ table{                  /*(0,0,1)*/
 
 table th, table td{     /*(0,0,2)*/
     color: rgb(255, 179, 179);
+    border: 1px solid whitesmoke;
 }
 
 
