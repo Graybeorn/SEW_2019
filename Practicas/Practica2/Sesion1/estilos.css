@@ -1,15 +1,15 @@
 
 /* TAREA 1 */
 
-h1, h3, h5 {
+h1, h3, h5 {            /*(0,0,2)*/
     font-stretch: expanded;
 }
 
-h2, h4, h6 {
+h2, h4, h6 {            /*(0,0,2)*/
     font-style: italic;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,h2,h3,h4,h5,h6 {     /*(0,0,2)*/
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
@@ -29,35 +29,35 @@ h4 /* (0,0,1) */ {
 h5 /* (0,0,1) */ {
     font-size: 0.83em;
 }
-h6 /* (0,0,1) */ {
+h6 /* (0,0,1) */ {  
     font-size: 0.67em;
 }
 
 /* TAREA 2 */
 
-p, ul, ol, dl, table {
+p, ul, ol, dl, table {  /*(0,0,2)*/
     font-family: 'Times New Roman', Times, serif;
     font-size: 1em;
 }
 
-p::first-letter {
+p::first-letter {       /*(0,0,2)*/
     font-size:1.5em;
 }
 
 /* TAREA 3 */ 
 
-h1,h2,h3,h3,h4,h5,h6 {
+h1,h2,h3,h3,h4,h5,h6 {  /*(0,0,º)*/
     background-color: rgb(65, 10, 10,100);
     color: rgb(255, 179, 179);
 }
 
-p {
+p {                     /*(0,0,1)*/
     background-color: rgba(65,10,10,500);
     color: rgb(255, 179, 179);
 }
 
 /* TAREA 4 */
-body {
+body {                  /*(0,0,1)*/
     background-color: gray;
     background-image: url("resources/background.jpg");
     background-repeat: no-repeat;
@@ -66,7 +66,7 @@ body {
 
 /* TAREA 5 */
 
-h1, h2, h3, h4, h5, h6 {
+h1,h2,h3,h4,h5,h6 {     /*(0,0,1)*/
     fill: burlywood;
     padding: 2%;
     margin: 2%;  
@@ -74,46 +74,44 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: capitalize;
 }
 
-h1 {
+h1 {                    /*(0,0,1)*/
     letter-spacing: 2em;
     border-radius: 15%;
 }
 
-p {
+p {                     /*(0,0,1)*/
     text-justify: inter-word;
     text-align: left;
 }
 
 /* TAREA 6 */
-a{
+a{                      /*(0,0,1)*/
     background: rgba(65,10,10,500);
 }
 
-a:link{
+a:link{                 /*(0,1,1)*/
     color: orange;
     text-decoration-style: dotted;
     text-decoration-skip: underline;
     
 }
 
-a:visited {
+a:visited {             /*(0,1,1)*/
     color: orangered;
-    text-decoration-style: solid;
-    text-decoration-skip: underline;
 }
 
 /* TAREA 7 */
-table{
+table{                  /*(0,0,1)*/
     background: rgba(65,10,10,500);
-    border: 1px solid gray;
+    border: 3px solid whitesmoke;
 }
 
-th, td{
+table th, table td{     /*(0,0,2)*/
     color: rgb(255, 179, 179);
 }
 
 
-ul li, ol li{
+ul li, ol li{           /*(0,0,2)*/
     background: rgba(65,10,10,500);
     color: rgb(255, 179, 179);
 }
