@@ -76,7 +76,7 @@ h1,h2,h3,h4,h5,h6 {     /*(0,0,1)*/
 
 h1 {                    /*(0,0,1)*/
     letter-spacing: 2em;
-    border-radius: 70%;
+    border-radius: 50%;
 }
 
 p {                     /*(0,0,1)*/
@@ -99,7 +99,6 @@ a:link{                 /*(0,1,1)*/
 a:visited {             /*(0,1,1)*/
     color: orangered;
     text-decoration-line: underline;
-    text-decoration-style: solid;
 }
 
 /* TAREA 7 */
@@ -111,6 +110,7 @@ table{                  /*(0,0,1)*/
 table th, table td{     /*(0,0,2)*/
     color: rgb(255, 179, 179);
     border: 1px solid whitesmoke;
+    padding: 5px;
 }
 
 
