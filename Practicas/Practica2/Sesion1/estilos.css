@@ -85,6 +85,10 @@ p {
 }
 
 /* TAREA 6 */
+a{
+    background: rgba(65,10,10,500);
+}
+
 a:link{
     color: orange;
     text-decoration-style: dotted;
@@ -100,11 +104,11 @@ a:visited {
 
 /* TAREA 7 */
 table > th, table > td {
-    background: orange;
-    color: red;
+    background-color: rgba(65,10,10,500);
+    color: rgb(255, 179, 179);
 }
 
 ul li, ol li{
-    background: orange;
-    color: red;
+    background-color: rgba(65,10,10,500);
+    color: rgb(255, 179, 179);
 }
