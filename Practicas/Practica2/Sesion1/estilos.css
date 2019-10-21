@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     margin: 10%;
     padding: 10%;
+    line-height: 100%;
 }
 
 h1 /* (0,0,1) */ { 
