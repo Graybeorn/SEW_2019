@@ -107,16 +107,13 @@ a:visited {
 /* TAREA 7 */
 table{
     background: rgba(65,10,10,500);
+    border: 1px solid gray;
+}
+
+th, td{
     color: rgb(255, 179, 179);
 }
 
-table > th{
-    color: rgb(255, 179, 179);
-}
-
-table tr th {
-    color: rgb(255, 179, 179);
-}
 
 ul li, ol li{
     background: rgba(65,10,10,500);
