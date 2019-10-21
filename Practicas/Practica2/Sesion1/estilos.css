@@ -68,9 +68,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     fill: burlywood;
-    margin: 10%;
-    align-self: center;
-    align-content: center;    
+    padding: 10%;
+    margin: 5%;  
     text-transform: capitalize;
 }
 
