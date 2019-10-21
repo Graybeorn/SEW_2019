@@ -104,11 +104,12 @@ a:visited {
 
 /* TAREA 7 */
 table > th, table > td {
-    background-color: rgba(65,10,10,500);
+    background: rgba(65,10,10,500);
+    fill:  rgba(65,10,10,500);
     color: rgb(255, 179, 179);
 }
 
 ul li, ol li{
-    background-color: rgba(65,10,10,500);
+    background: rgba(65,10,10,500);
     color: rgb(255, 179, 179);
 }
