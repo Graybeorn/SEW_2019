@@ -12,6 +12,7 @@ h2, h4, h6 {
 h1, h2, h3, h4, h5, h6 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    margin: 20%;
 }
 
 h1 /* (0,0,1) */ { 
@@ -84,6 +85,26 @@ p {
 }
 
 /* TAREA 6 */
-a {
+a:link{
+    color: orange;
+    text-decoration-style: dotted;
+    text-decoration-skip: underline;
+    
+}
 
+a:visited {
+    color: orangered;
+    text-decoration-style: solid;
+    text-decoration-skip: underline;
+}
+
+/* TAREA 7 */
+table > th, table > td {
+    background: orange;
+    color: red;
+}
+
+ul li, ol li{
+    background: orange;
+    color: red;
 }
