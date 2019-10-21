@@ -76,7 +76,7 @@ h1,h2,h3,h4,h5,h6 {     /*(0,0,1)*/
 
 h1 {                    /*(0,0,1)*/
     letter-spacing: 2em;
-    border-radius: 50%;
+    border-radius: 50px;
 }
 
 p {                     /*(0,0,1)*/
