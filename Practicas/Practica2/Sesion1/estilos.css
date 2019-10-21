@@ -107,9 +107,14 @@ a:visited {
 /* TAREA 7 */
 table{
     background: rgba(65,10,10,500);
+    color: rgb(255, 179, 179);
 }
-table > th, table > td {
-    fill:  rgba(65,10,10,500);
+
+table > th{
+    color: rgb(255, 179, 179);
+}
+
+table tr th {
     color: rgb(255, 179, 179);
 }
 
