@@ -5,14 +5,18 @@ body /* (0,0,1) */ {
 }
 
 section /*(0,0,1)*/ {
-    background: #454140
+    background: #454140F1;
+    border-radius:10px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 h1 /* (0,0,1) */ {
     background-color:#454140; 
     color: white;
     text-transform: uppercase;
-    padding: 100px 25px;
+    padding: 60px 25px;
     border-radius: 15px;
     text-align: center;     
 }
@@ -21,6 +25,7 @@ h2 /* (0,0,1) */ {
     font-size: 1.5em;
     background-color: #a79e84;
     color:black;
+    padding:10px;
     border-radius: 15px;
 }
 h3 /* (0,0,1) */ {
@@ -42,27 +47,38 @@ p::first-letter {       /*(0,0,2)*/
 p {  /*(0,0,2)*/
     font-family: 'Times New Roman', Times, serif;
     font-size: 1em;
-    background-color: #a79e8410;
+    background-color: #a79e8494;
+    border-radius:10px;
+    padding: 1em;
     color:black;
 }
 
+nav{
+   display:flex;
+   justify-content: center;
+}
+
 a{                      /*(0,0,1)*/
-    background: #a79e84;
-    color: #bd5734;
+    background: #dece9d;
+    margin: 1px;
+    padding:3px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: sans-serif;
 }
 
 a:link {                /*(0,1,1)*/
     color: #bd5734;
     text-decoration-line: underline;
-    text-decoration-style: dotted;
+    text-decoration-style: solid;
 }
 
 a:hover    {            /*(0,1,1)*/
     text-decoration-line:underline;
-    text-decoration-style: solid;
+    text-decoration-style: dotted;
 }
 a:visited {            /*(0,1,1)*/
-    color: #454140;
+    color: #000000;
 }
 
 table{                  /*(0,0,1)*/
@@ -81,5 +97,8 @@ table th, table td{     /*(0,0,2)*/
 ul li, ol li{           /*(0,0,2)*/
     font-family: 'Times New Roman', Times, serif;
     background: #454140;
+    paddind: 3px;
+    margin: 1px;
+    border-radius: 10px;
     color: white;
 }
