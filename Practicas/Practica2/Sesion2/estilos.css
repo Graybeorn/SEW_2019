@@ -7,9 +7,12 @@ body /* (0,0,1) */ {
 section /*(0,0,1)*/ {
     background: #454140F1;
     border-radius:10px;
+    padding-top: 0px;
     padding-bottom: 5px;
     padding-left: 2px;
     padding-right: 2px;
+    margin: 5px;
+    display:inline-grid;
 }
 
 h1 /* (0,0,1) */ {
@@ -27,6 +30,7 @@ h2 /* (0,0,1) */ {
     color:black;
     padding:10px;
     border-radius: 15px;
+    margin: 10px;
 }
 h3 /* (0,0,1) */ {
     font-size: 1.17em;
@@ -105,9 +109,16 @@ table th, table td{     /*(0,0,2)*/
 
 ul li, ol li{           /*(0,0,2)*/
     font-family: 'Times New Roman', Times, serif;
-    background: #454140;
-    padding: 3px;
-    margin: 1px;
+    background: #e4dbbe;
+    padding: 5px;
+    margin: 3px 0px 3px 3px;
     border-radius: 10px;
-    color: white;
+    color: black;
+}
+
+img {                   /*(0,0,1)*/
+    justify-self: center;
+    max-width: 90%;
+    margin: 10px;
+    border: 4px solid  #e2dcc8;
 }
