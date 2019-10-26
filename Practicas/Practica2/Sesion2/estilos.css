@@ -1,0 +1,85 @@
+body /* (0,0,1) */ {
+    font: 400 15px Tahoma, sans-serif;
+    background-color: #7a3b2e;
+    flex-flow: column wrap;
+}
+
+section /*(0,0,1)*/ {
+    background: #454140
+}
+
+h1 /* (0,0,1) */ {
+    background-color:#454140; 
+    color: white;
+    text-transform: uppercase;
+    padding: 100px 25px;
+    border-radius: 15px;
+    text-align: center;     
+}
+
+h2 /* (0,0,1) */ {
+    font-size: 1.5em;
+    background-color: #a79e84;
+    color:black;
+    border-radius: 15px;
+}
+h3 /* (0,0,1) */ {
+    font-size: 1.17em;
+}
+h4 /* (0,0,1) */ {
+    font-size: 1em;
+}
+h5 /* (0,0,1) */ {
+    font-size: 0.83em;
+}
+h6 /* (0,0,1) */ {  
+    font-size: 0.67em;
+}
+
+p::first-letter {       /*(0,0,2)*/
+    font-size:1.5em;
+}
+p {  /*(0,0,2)*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    background-color: #a79e8410;
+    color:black;
+}
+
+a{                      /*(0,0,1)*/
+    background: #a79e84;
+    color: #bd5734;
+}
+
+a:link {                /*(0,1,1)*/
+    color: #bd5734;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+a:hover    {            /*(0,1,1)*/
+    text-decoration-line:underline;
+    text-decoration-style: solid;
+}
+a:visited {            /*(0,1,1)*/
+    color: #454140;
+}
+
+table{                  /*(0,0,1)*/
+    font-family: 'Times New Roman', Times, serif;
+    background: #454140;
+    border: 3px solid #bd5734;
+}
+
+table th, table td{     /*(0,0,2)*/
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border: 1px solid #bd5734;
+    padding: 5px;
+}
+
+ul li, ol li{           /*(0,0,2)*/
+    font-family: 'Times New Roman', Times, serif;
+    background: #454140;
+    color: white;
+}
