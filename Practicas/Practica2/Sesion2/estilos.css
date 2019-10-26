@@ -44,7 +44,7 @@ h6 /* (0,0,1) */ {
 p::first-letter {       /*(0,0,2)*/
     font-size:1.5em;
 }
-p {  /*(0,0,2)*/
+p {                     /*(0,0,2)*/
     font-family: 'Times New Roman', Times, serif;
     font-size: 1em;
     background-color: #a79e8494;
@@ -53,7 +53,12 @@ p {  /*(0,0,2)*/
     color:black;
 }
 
-nav{
+blockquote{             /*(0,0,1)*/
+    background-color: #a79e8494;
+    border-radius:inherit;
+}
+
+nav{                    /*(0,0,1)*/
    display:flex;
    justify-content: center;
 }
@@ -83,13 +88,17 @@ a:visited {            /*(0,1,1)*/
 
 table{                  /*(0,0,1)*/
     font-family: 'Times New Roman', Times, serif;
-    background: #454140;
+    background: #e2dcc8;
+    margin:5px;
     border: 3px solid #bd5734;
 }
 
 table th, table td{     /*(0,0,2)*/
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    color: black;
+    padding: 5px;
+    margin: 3px;
+    text-align: center;
     border: 1px solid #bd5734;
     padding: 5px;
 }
@@ -97,7 +106,7 @@ table th, table td{     /*(0,0,2)*/
 ul li, ol li{           /*(0,0,2)*/
     font-family: 'Times New Roman', Times, serif;
     background: #454140;
-    paddind: 3px;
+    padding: 3px;
     margin: 1px;
     border-radius: 10px;
     color: white;
