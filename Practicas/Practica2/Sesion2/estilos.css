@@ -70,8 +70,9 @@ blockquote{             /*(0,0,1)*/
 }
 
 nav{                    /*(0,0,1)*/
-   display:flex;
-   justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 a{                      /*(0,0,1)*/
