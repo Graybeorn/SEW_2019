@@ -1,0 +1,3 @@
+<!ELEMENT tarea1(ruta+)>
+<!ELEMENT ruta(nombre, descripcion, inicio, fechaInicio?, horaInicio?, hitos, bibliografia)>
+
