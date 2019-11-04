@@ -7,7 +7,7 @@
 		
 		<inicio direccion="Plaza Alfonso II el Casto, 33003 Oviedo, Asturias">
             <lugar>Plaza de la Catedral</lugar>
-            <coordenadas latitud="43.362350" longitud="-5.844373" altitud="450"></coordenadas>
+            <coordenadas latitud="43.362350" longitud="-5.844373" altitud="435"></coordenadas>
 		</inicio>
 
 		<fechaInicio>29/10/2019</fechaInicio>
@@ -108,7 +108,7 @@
 		
 		<inicio direccion="Plaza Alfonso II el Casto, 33003 Oviedo, Asturias">
             <lugar>Plaza de la Catedral</lugar>
-            <coordenadas latitud="43.362350" longitud="-5.844373" altitud="450"></coordenadas>
+            <coordenadas latitud="43.362350" longitud="-5.844373" altitud="200"></coordenadas>
 		</inicio>
 
 		<fechaInicio>29/10/2019</fechaInicio>
@@ -116,7 +116,7 @@
 
         <hitos>
             <hito distancia="0" unidades="km">
-                <coordenadas latitud="43.362350" longitud="-5.844373" altitud="435"></coordenadas>
+                <coordenadas latitud="43.362350" longitud="-5.844373" altitud="200"></coordenadas>
                 <nombreHito>Catedral de oviedo</nombreHito>
                 <descripcionHito>Uno de los edificios más emblemáticos de la ciudad. De estilo gótico, reconstruida tras la guerra civil, etc etc.</descripcionHito>
                 <imagenes>
@@ -124,7 +124,7 @@
                 </imagenes>
             </hito>        
             <hito distancia="0.5" unidades="km">
-                <coordenadas latitud="43.362573" longitud="-5.841326" altitud="430"></coordenadas>
+                <coordenadas latitud="43.362573" longitud="-5.841326" altitud="500"></coordenadas>
                 <nombreHito>Murallas de la ciudad de Oviedo</nombreHito>
                 <descripcionHito>Fragmento en excelente estado de conservación de las antiguas murallas de Oviedo.</descripcionHito>
                 <imagenes>
@@ -132,7 +132,7 @@
                 </imagenes>
             </hito>        
             <hito distancia="1" unidades="km">
-                <coordenadas latitud="43.367712" longitud="-5.837325" altitud="400"></coordenadas>
+                <coordenadas latitud="43.367712" longitud="-5.837325" altitud="100"></coordenadas>
                 <nombreHito>San Julián de los Prados</nombreHito>
                 <descripcionHito>La basílica de San Julián de los Prados o Santullano, (en asturiano: Santuyano), es una Iglesia prerrománica 
                     de principios del siglo IX que se encuentra en Oviedo (Principado de Asturias), siendo una de las principales muestras del arte asturiano. 
@@ -172,7 +172,7 @@
                 </imagenes>
             </hito>        
             <hito distancia="90" unidades="km">
-                <coordenadas latitud="43.418382" longitud="-5.193098" altitud="500"></coordenadas>
+                <coordenadas latitud="43.418382" longitud="-5.193098" altitud="90"></coordenadas>
                 <nombreHito>Casa Marcial</nombreHito>
                 <descripcionHito>De esa extraordinaria despensa de la cocina asturiana, "que todavía no se pone en valor", va a 
                     recuperar el trigo de escanda, el cerdo autóctono, las nueces y avellanas de temporada o la vaca casina.</descripcionHito>
@@ -185,7 +185,7 @@
                 </videos>
             </hito>         
             <hito distancia="105" unidades="km">
-                <coordenadas latitud="43.472422" longitud="-3.780842" altitud="30"></coordenadas>
+                <coordenadas latitud="43.472422" longitud="-3.780842" altitud="0"></coordenadas>
                 <nombreHito>Primra playa el Sardinero</nombreHito>
                 <descripcionHito>El Sardinero cuenta con dos playas con su mismo nombre. Una es la Primera Playa del Sardinero y la otra es la Segunda Playa del Sardinero. 
                     Son dos playas distintas aunque están seguidas en la línea de costa y cuando baja la marea se unen.</descripcionHito>
@@ -217,7 +217,7 @@
 		
         <hitos>
             <hito distancia="0" unidades="km">
-                <coordenadas latitud="43.362350" longitud="-5.844373" altitud="435"></coordenadas>
+                <coordenadas latitud="43.362350" longitud="-5.844373" altitud="450"></coordenadas>
                 <nombreHito>Catedral de oviedo</nombreHito>
                 <descripcionHito>Uno de los edificios más emblemáticos de la ciudad. De estilo gótico, reconstruida tras la guerra civil, etc etc.</descripcionHito>
                 <imagenes>
@@ -225,7 +225,7 @@
                 </imagenes>
             </hito>        
             <hito distancia="0.5" unidades="km">
-                <coordenadas latitud="43.362573" longitud="-5.841326" altitud="430"></coordenadas>
+                <coordenadas latitud="43.362573" longitud="-5.841326" altitud="300"></coordenadas>
                 <nombreHito>Murallas de la ciudad de Oviedo</nombreHito>
                 <descripcionHito>Fragmento en excelente estado de conservación de las antiguas murallas de Oviedo.</descripcionHito>
                 <imagenes>
@@ -233,7 +233,7 @@
                 </imagenes>
             </hito>        
             <hito distancia="1" unidades="km">
-                <coordenadas latitud="43.367712" longitud="-5.837325" altitud="400"></coordenadas>
+                <coordenadas latitud="43.367712" longitud="-5.837325" altitud="1000"></coordenadas>
                 <nombreHito>San Julián de los Prados</nombreHito>
                 <descripcionHito>La basílica de San Julián de los Prados o Santullano, (en asturiano: Santuyano), es una Iglesia prerrománica 
                     de principios del siglo IX que se encuentra en Oviedo (Principado de Asturias), siendo una de las principales muestras del arte asturiano. 
@@ -273,7 +273,7 @@
                 </imagenes>
             </hito>        
             <hito distancia="90" unidades="km">
-                <coordenadas latitud="43.418382" longitud="-5.193098" altitud="500"></coordenadas>
+                <coordenadas latitud="43.418382" longitud="-5.193098" altitud="90"></coordenadas>
                 <nombreHito>Casa Marcial</nombreHito>
                 <descripcionHito>De esa extraordinaria despensa de la cocina asturiana, "que todavía no se pone en valor", va a 
                     recuperar el trigo de escanda, el cerdo autóctono, las nueces y avellanas de temporada o la vaca casina.</descripcionHito>
