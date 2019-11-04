@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE tarea1>
+<!DOCTYPE tarea1 SYSTEM "tarea1.dtd">
 <tarea1>
 	<ruta tipo="Arquitectura y monumentos" medio="A pie" duracion="1 hora" agencia="AsturOcio" adecuadoPara="Todos" recomendacion="7">
 		<nombre>Paseo por el centro de Oviedo</nombre>
 		<descripcion>Disfruta de una visita guiada a través del casco historíco de Oviedo, pasando por sus edificios más emblemáticos.</descripcion>
 		
-		<fechaInicio>29/10/2019</fechaInicio>
-		<horaInicio>12:00</horaInicio>
-		
 		<inicio direccion="Plaza Alfonso II el Casto, 33003 Oviedo, Asturias">
             <lugar>Plaza de la Catedral</lugar>
             <coordenadas latitud="43.362350" longitud="-5.844373" altitud="450"></coordenadas>
 		</inicio>
+
+		<fechaInicio>29/10/2019</fechaInicio>
+		<horaInicio>12:00</horaInicio>
 
         <hitos>
             <hito distancia="0" unidades="km">
@@ -54,6 +54,8 @@
 
 	<ruta tipo="Gastronómica" medio="Automóvil" duracion="4h" agencia="sin agencia" adecuadoPara="Parejas" recomendacion="9">
 		<nombre>Oviedo-Santander</nombre>
+		<descripcion>Viaje Oviedo-Sntander con pausa para comer, ideal parejas. Precio aproximado 100€ 2 personas.</descripcion>
+		
 		<inicio direccion="Calle Ramón y Cajal, 16, 33003 Oviedo, Asturias">
             <lugar>Jamón Jamón</lugar>
             <coordenadas latitud="43.362119" longitud="-5.845863" altitud="430"></coordenadas>
@@ -104,13 +106,13 @@
 		<nombre>Paseo por el centro de Oviedo</nombre>
 		<descripcion>Disfruta de una visita guiada a través del casco historíco de Oviedo, pasando por sus edificios más emblemáticos.</descripcion>
 		
-		<fechaInicio>29/10/2019</fechaInicio>
-		<horaInicio>12:00</horaInicio>
-		
 		<inicio direccion="Plaza Alfonso II el Casto, 33003 Oviedo, Asturias">
             <lugar>Plaza de la Catedral</lugar>
             <coordenadas latitud="43.362350" longitud="-5.844373" altitud="450"></coordenadas>
 		</inicio>
+
+		<fechaInicio>29/10/2019</fechaInicio>
+		<horaInicio>12:00</horaInicio>
 
         <hitos>
             <hito distancia="0" unidades="km">
@@ -153,6 +155,8 @@
 
 	<ruta tipo="Gastronómica" medio="Automóvil" duracion="4h" agencia="sin agencia" adecuadoPara="Parejas" recomendacion="9">
 		<nombre>Oviedo-Santander</nombre>
+		<descripcion>Viaje Oviedo-Sntander con pausa para comer, ideal parejas. Precio aproximado 100€ 2 personas.</descripcion>
+		
 		<inicio direccion="Calle Ramón y Cajal, 16, 33003 Oviedo, Asturias">
             <lugar>Jamón Jamón</lugar>
             <coordenadas latitud="43.362119" longitud="-5.845863" altitud="430"></coordenadas>
@@ -203,14 +207,14 @@
 		<nombre>Paseo por el centro de Oviedo</nombre>
 		<descripcion>Disfruta de una visita guiada a través del casco historíco de Oviedo, pasando por sus edificios más emblemáticos.</descripcion>
 		
-		<fechaInicio>29/10/2019</fechaInicio>
-		<horaInicio>12:00</horaInicio>
-		
 		<inicio direccion="Plaza Alfonso II el Casto, 33003 Oviedo, Asturias">
             <lugar>Plaza de la Catedral</lugar>
             <coordenadas latitud="43.362350" longitud="-5.844373" altitud="450"></coordenadas>
 		</inicio>
 
+		<fechaInicio>29/10/2019</fechaInicio>
+		<horaInicio>12:00</horaInicio>
+		
         <hitos>
             <hito distancia="0" unidades="km">
                 <coordenadas latitud="43.362350" longitud="-5.844373" altitud="435"></coordenadas>
@@ -252,6 +256,8 @@
 
 	<ruta tipo="Gastronómica" medio="Automóvil" duracion="4h" agencia="sin agencia" adecuadoPara="Parejas" recomendacion="9">
 		<nombre>Oviedo-Santander</nombre>
+		<descripcion>Viaje Oviedo-Sntander con pausa para comer, ideal parejas. Precio aproximado 100€ 2 personas.</descripcion>
+		
 		<inicio direccion="Calle Ramón y Cajal, 16, 33003 Oviedo, Asturias">
             <lugar>Jamón Jamón</lugar>
             <coordenadas latitud="43.362119" longitud="-5.845863" altitud="430"></coordenadas>

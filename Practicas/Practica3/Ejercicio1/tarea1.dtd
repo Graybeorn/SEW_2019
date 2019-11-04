@@ -1,44 +1,34 @@
 <!ELEMENT tarea1 (ruta, ruta, ruta, ruta, ruta+)>
 <!ELEMENT ruta (nombre, descripcion, inicio, fechaInicio?, horaInicio?, hitos, bibliografia)>
-    <!ELEMENT nombre (#PCDATA)>
-    <!ELEMENT descripcion (#PCDATA)>
-
-    <!ELEMENT inicio (lugar, coordenadas)>
-        <!ELEMENT lugar (#PCDATA)>
-        <!ELEMENT coordenadas (EMPTY)>
-
-    <!ELEMENT fechaInicio (#PCDATA)>
-    <!ELEMENT horaInicio (#PCDATA)>
-
-    <!ELEMENT hitos (hito, hito, hito+)>
-        <!ELEMENT hito (coordenadas, nombreHito, descripcionHito, imagenes, videos?)>
-            <!ELEMENT nombreHito (#PCDATA)>
-            <!ELEMENT descripcionHito (#PCDATA)>
-            <!ELEMENT imagenes (imagen, imagen?, imagen?, imagen?, imagen?)>
-                <!ELEMENT imagen (#PCDATA)>
-            <!ELEMENT videos (video?, video?, video?)>
-                <!ELEMENT video (#PCDATA)>
-
-    <!ELEMENT bibliografia (ref, ref, ref+)>
-        <!ELEMENT ref (#PCDATA)>
-
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT inicio (lugar, coordenadas)>
+<!ELEMENT lugar (#PCDATA)>
+<!ELEMENT coordenadas EMPTY>
+<!ELEMENT fechaInicio (#PCDATA)>
+<!ELEMENT horaInicio (#PCDATA)>
+<!ELEMENT hitos (hito, hito, hito+)>
+<!ELEMENT hito (coordenadas, nombreHito, descripcionHito, imagenes, videos?)>
+<!ELEMENT nombreHito (#PCDATA)>
+<!ELEMENT descripcionHito (#PCDATA)>
+<!ELEMENT imagenes (imagen?, imagen?, imagen?, imagen?, imagen)>
+<!ELEMENT imagen (#PCDATA)>
+<!ELEMENT videos (video?, video?, video?)>
+<!ELEMENT video (#PCDATA)>
+<!ELEMENT bibliografia (ref, ref, ref+)>
+<!ELEMENT ref (#PCDATA)>
 <!ATTLIST ruta tipo CDATA #REQUIRED>
 <!ATTLIST ruta medio CDATA #REQUIRED>
 <!ATTLIST ruta duracion CDATA #REQUIRED>
 <!ATTLIST ruta agencia CDATA #REQUIRED>
 <!ATTLIST ruta adecuadoPara CDATA #REQUIRED>
 <!ATTLIST ruta recomendacion NMTOKEN #REQUIRED>
-
-<!ATTLIST inicio direccion CDATA REQUIRED>
-
+<!ATTLIST inicio direccion CDATA #REQUIRED>
 <!ATTLIST coordenadas latitud NMTOKEN #REQUIRED>
 <!ATTLIST coordenadas longitud NMTOKEN #REQUIRED>
 <!ATTLIST coordenadas altitud NMTOKEN #REQUIRED>
-
-
 <!ATTLIST hito distancia NMTOKEN #REQUIRED>
 <!ATTLIST hito unidades NMTOKEN #REQUIRED>
-
 
 
 
