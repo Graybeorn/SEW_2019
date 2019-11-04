@@ -1,3 +1,44 @@
-<!ELEMENT tarea1(ruta+)>
+<!ELEMENT tarea1(ruta, ruta, ruta, ruta, ruta+)>
 <!ELEMENT ruta(nombre, descripcion, inicio, fechaInicio?, horaInicio?, hitos, bibliografia)>
+    <!ELEMENT nombre(#PCDATA)>
+    <!ELEMENT descripcion(#PCDATA)>
+
+    <!ELEMENT inicio(lugar, coordenadas)>
+        <!ELEMENT lugar (#PCDATA)>
+        <!ELEMENT coordenadas(EMPTY)>
+
+    <!ELEMENT fechaInicio (#PCDATA)>
+    <!ELEMENT horaInicio (#PCDATA)>
+
+    <!ELEMENT hitos(hito, hito, hito+)>
+        <!ELEMENT hito(coordenadas, nombreHito, descripcionHito, imagenes, videos?)>
+            <!ELEMENT nombreHito(#PCDATA)>
+            <!ELEMENT descripcionHito(#PCDATA)>
+            <!ELEMENT imagenes(imagen, imagen?, imagen?, imagen?, imagen?)>
+                <!ELEMENT imagen (#PCDATA)>
+            <!ELEMENT videos(video?, video?, video?)>
+                <!ELEMENT video (#PCDATA)>
+
+    <!ELEMENT bibliografia(ref, ref, ref+)>
+        <!ELEMENT ref (#PCDATA)>
+
+<!ATLIST ruta tipo #CDATA #REQUIRED>
+<!ATLIST ruta medio #CDATA #REQUIRED>
+<!ATLIST ruta duracion #CDATA #REQUIRED>
+<!ATLIST ruta agencia #CDATA #REQUIRED>
+<!ATLIST ruta adecuadoPara #CDATA #REQUIRED>
+<!ATLIST ruta recomendacion #NMTOKEN #REQUIRED>
+
+<!ATLIST inicio direccion #CDATA #REQUIRED>
+
+<!ATLIST coordenadas latitud #NMTOKEN #REQUIRED>
+<!ATLIST coordenadas longitud #NMTOKEN #REQUIRED>
+<!ATLIST coordenadas altitud #NMTOKEN #REQUIRED>
+
+
+<!ATLIST hito distancia #NMTOKEN #REQUIRED>
+<!ATLIST hito unidades #NMTOKEN #REQUIRED>
+
+
+
 
