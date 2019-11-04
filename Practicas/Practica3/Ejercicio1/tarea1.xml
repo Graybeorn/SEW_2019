@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE tarea1 SYSTEM "tarea1.dtd">
+<!DOCTYPE tarea1 SYSTEM "tarea2.dtd">
 <tarea1>
 	<ruta tipo="Arquitectura y monumentos" medio="A pie" duracion="1 hora" agencia="AsturOcio" adecuadoPara="Todos" recomendacion="7">
 		<nombre>Paseo por el centro de Oviedo</nombre>
