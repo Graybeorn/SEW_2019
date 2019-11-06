@@ -1,0 +1,31 @@
+Se cambia la definición en varias líneas de ruta de:
+	<xs:element ref="ruta" />
+	<xs:element ref="ruta" />
+	<xs:element ref="ruta" />
+	<xs:element ref="ruta" />
+	<xs:element minOccurs="1" maxOccurs="unbounded" ref="ruta" />
+ a:
+	<xs:element minOccurs="5" maxOccurs="unbounded" ref="ruta" />
+	
+Se cambian los tipos de latitud, longitud y altitud de string a double.
+
+Se cambia la definición en varias líneas de hito de:
+	<xs:element ref="hito" />
+	<xs:element ref="hito" />
+	<xs:element minOccurs="1" maxOccurs="unbounded" ref="hito" />
+a:
+	<xs:element minOccurs="3" maxOccurs="unbounded" ref="hito" />
+	
+Se crea el tipo complejo unidades que usa base token y define la enumeración {km, m}
+
+Distancia cambia de tipo NMTOKEN a double
+
+Se cambia la definición en varias líneas de ref de:
+	<xs:element ref="ref" />
+	<xs:element ref="ref" />
+	<xs:element minOccurs="1" maxOccurs="unbounded" ref="ref" />
+a:
+	<xs:element minOccurs="3" maxOccurs="unbounded" name="ref" type="xs:string" />
+	
+Se han eliminado todas las referencias en elementos cuandos son tipos simples para reducir la cantidad de texto y hacerlo más legible
+Aún podría mejorarse moviendo los tipos complejos a dentro de la definición de los elementos.

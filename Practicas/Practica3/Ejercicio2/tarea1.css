@@ -1,0 +1,159 @@
+body /* (0,0,1) */ {
+    font: 400 15px Tahoma, sans-serif;
+    background-color: #49c5ff;
+    flex-flow: column wrap;
+}
+
+body * {
+    justify-content: center;
+}
+
+section /*(0,0,1)*/ {
+    background: rgba(119, 137, 141, 0.945);
+    border-radius: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 5px 0px 5px;
+    width: 100%;
+    display: inline-grid;
+}
+
+nav, footer { /*(0,0,1)*/
+    background-color: #528063;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+h1 /* (0,0,1) */ {
+    background-color: #2e394b;
+    color: white;
+    text-transform: uppercase;
+    padding: 60px 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h2 /* (0,0,1) */ {
+    font-size: 1.5em;
+    background-color: #9184a7;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    width: 85%;
+    max-width: 85%;
+}
+
+h2, h3, h4, h5, h6 {
+    text-align: center;
+    background: rgb(230, 210, 188);
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+}
+
+h2 {
+    width: 85%;
+    max-width: 85%;
+}
+
+h3 {
+    width: 80%;
+    max-width: 80%;
+}
+
+h4 {
+    width: 75%;
+    max-width: 75%;
+}
+
+h5 {
+    width: 70%;
+    max-width: 70%;
+}
+
+h6 {
+    width: 65%;
+    max-width: 65%;
+}
+
+p::first-letter { /*(0,0,2)*/
+    font-size: 1.5em;
+}
+
+p { /*(0,0,2)*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 3px;
+    color: black;
+    background: rgb(147, 204, 206);
+}
+
+
+nav { /*(0,0,1)*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a { /*(0,0,1)*/
+    background: #dece9d;
+    color: #000000;
+    margin: 1px;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+
+table {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background: white;
+    border: 3px solid rgb(71, 66, 60);
+    max-width: 93%;
+    width: 93%;
+    justify-self: center;
+    padding:10px;
+}
+
+table th, table td {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    margin: 3px;
+    text-align: center;
+    border: 1px solid rgb(71, 66, 60);
+    padding: 5px;
+}
+
+li { /*(0,0,1)*/
+    max-width: 93%;
+}
+
+ul li, ol li { /*(0,0,2)*/
+    font-family: 'Times New Roman', Times, serif;
+    background: white;
+    padding: 5px;
+    margin: 3px 0px 3px 3px;
+    border-radius: 10px;
+    color: black;
+}
+
+img { /*(0,0,1)*/
+    justify-self: center;
+    max-width: 90%;
+    margin: 10px;
+    border: 4px solid #e2dcc8;
+}
+
+video { /*(0,0,1)*/
+    justify-self: center;
+    max-width: 90%;
+    margin: 10px;
+}

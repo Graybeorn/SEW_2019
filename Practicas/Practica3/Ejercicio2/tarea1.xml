@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rutas SYSTEM "tarea2.dtd">
+<?xml-stylesheet type="text/xsl" href ="tarea1.xsl"?>
+<!DOCTYPE rutas SYSTEM "..\Ejercicio1\tarea2.dtd">
 <rutas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="tarea5.xsd">
+        xsi:noNamespaceSchemaLocation="..\Ejercicio1\tarea5.xsd">
 	<ruta tipo="Arquitectura y monumentos" medio="A pie" duracion="PT1H" agencia="AsturOcio" adecuadoPara="Todos" recomendacion="7">
 		<nombre>Paseo por el centro de Oviedo</nombre>
 		<descripcion>Disfruta de una visita guiada a través del casco historíco de Oviedo, pasando por sus edificios más emblemáticos.</descripcion>
@@ -85,7 +86,7 @@
                     <imagen>https://s3-eu-west-1.amazonaws.com/gr-cms/media/filer_public/56/2c/562cf0a7-51dc-4463-862b-afb7900862d2/4.jpg</imagen>
                 </imagenes>
                 <videos>
-                    <video>/resources/video.mp4 </video>
+                    <video>/resources/video.mp4</video>
                 </videos>
             </hito>         
             <hito distancia="105" unidades="km">
@@ -191,7 +192,7 @@
                     <imagen>https://s3-eu-west-1.amazonaws.com/gr-cms/media/filer_public/56/2c/562cf0a7-51dc-4463-862b-afb7900862d2/4.jpg</imagen>
                 </imagenes>
                 <videos>
-                    <video>resources/video.mp4</video>
+                    <video>/resources/video.mp4</video>
                 </videos>
             </hito>         
             <hito distancia="105" unidades="km">

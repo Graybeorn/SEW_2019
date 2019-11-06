@@ -1,4 +1,4 @@
-<!ELEMENT tarea1 (ruta, ruta, ruta, ruta, ruta+)>
+<!ELEMENT rutas (ruta, ruta, ruta, ruta, ruta+)>
 <!ELEMENT ruta (nombre, descripcion, inicio, fechaInicio?, horaInicio?, hitos, bibliografia)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT descripcion (#PCDATA)>
@@ -8,12 +8,12 @@
 <!ELEMENT fechaInicio (#PCDATA)>
 <!ELEMENT horaInicio (#PCDATA)>
 <!ELEMENT hitos (hito, hito, hito+)>
-<!ELEMENT hito (coordenadas, nombreHito, descripcionHito, imagenes, videos?)>
+<!ELEMENT hito (coordenadas, nombreHito, descripcionHito, imagenes, videos)>
 <!ELEMENT nombreHito (#PCDATA)>
 <!ELEMENT descripcionHito (#PCDATA)>
-<!ELEMENT imagenes (imagen?, imagen?, imagen?, imagen?, imagen)>
+<!ELEMENT imagenes (imagen+)>
 <!ELEMENT imagen (#PCDATA)>
-<!ELEMENT videos (video?, video?, video?)>
+<!ELEMENT videos (video*)>
 <!ELEMENT video (#PCDATA)>
 <!ELEMENT bibliografia (ref, ref, ref+)>
 <!ELEMENT ref (#PCDATA)>
