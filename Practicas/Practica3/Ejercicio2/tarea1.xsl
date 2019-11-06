@@ -9,6 +9,7 @@
       <head>
         <meta charset="UTF-8"></meta>
         <title>Guía de rutas turísticas</title>
+        <base href="https://uo252376.github.io/SEW_2019/Practicas/Practica3/Ejercicio2" />
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         <link rel="stylesheet" type="text/css" href="tarea1.css"></link>
       </head>
