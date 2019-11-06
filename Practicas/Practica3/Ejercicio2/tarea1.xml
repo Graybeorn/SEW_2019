@@ -86,7 +86,7 @@
                     <imagen>https://s3-eu-west-1.amazonaws.com/gr-cms/media/filer_public/56/2c/562cf0a7-51dc-4463-862b-afb7900862d2/4.jpg</imagen>
                 </imagenes>
                 <videos>
-                    <video>/resources/video.mp4</video>
+                    <video>resources/video.mp4</video>
                 </videos>
             </hito>         
             <hito distancia="105" unidades="km">
@@ -192,7 +192,7 @@
                     <imagen>https://s3-eu-west-1.amazonaws.com/gr-cms/media/filer_public/56/2c/562cf0a7-51dc-4463-862b-afb7900862d2/4.jpg</imagen>
                 </imagenes>
                 <videos>
-                    <video>/resources/video.mp4</video>
+                    <video>resources/video.mp4</video>
                 </videos>
             </hito>         
             <hito distancia="105" unidades="km">
