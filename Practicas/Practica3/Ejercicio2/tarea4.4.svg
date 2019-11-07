@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<svg width="100vw" height="100vh" style="overflow:visible" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<polyline points="20,200 120,180 200,186 240,193 240,200 20,200" style="fill:none;stroke:red;stroke-width:3"/>
+<text transform="translate(20,220) rotate(90) translate(-20,-220)" x="20" y="220" fill="black">Jamón Jamón</text>
+<text transform="translate(120,220) rotate(90) translate(-120,-220)" x="120" y="220" fill="black">Jamón Jamón</text>
+<text transform="translate(200,220) rotate(90) translate(-200,-220)" x="200" y="220" fill="black">Casa Marcial</text>
+<text transform="translate(240,220) rotate(90) translate(-240,-220)" x="240" y="220" fill="black">Primra playa el Sardinero</text>
+</svg>

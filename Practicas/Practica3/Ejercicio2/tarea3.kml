@@ -1,0 +1,106 @@
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <Placemark>Paseo por el centro de Oviedo<LineString>
+            <extrude>1</extrude>
+            <teselate>1</teselate>
+            <coordinates>
+-5.844373,43.362350,435
+-5.844373,43.362350,435
+-5.941326,43.362573,430
+-5.837325,43.387712,400</coordinates>
+            <altitudMode>absolute</altitudMode>
+         </LineString>
+         <Style id="Paseo por el centro de Oviedo">
+            <LineStyle>
+               <color>#ff0000ff</color>
+               <width>5</width>
+            </LineStyle>
+         </Style>
+      </Placemark>
+      <Placemark>Oviedo-Santander<LineString>
+            <extrude>1</extrude>
+            <teselate>1</teselate>
+            <coordinates>
+-5.845863,43.362119,430
+-5.845863,43.362119,430
+-5.193098,43.418382,500
+-3.780842,43.472422,30</coordinates>
+            <altitudMode>absolute</altitudMode>
+         </LineString>
+         <Style id="Oviedo-Santander">
+            <LineStyle>
+               <color>#ff0000ff</color>
+               <width>5</width>
+            </LineStyle>
+         </Style>
+      </Placemark>
+      <Placemark>Paseo por el centro de Oviedo<LineString>
+            <extrude>1</extrude>
+            <teselate>1</teselate>
+            <coordinates>
+-5.844373,41.362350,200
+-5.844373,41.362350,200
+-5.841326,41.362573,500
+-5.837325,41.367712,100</coordinates>
+            <altitudMode>absolute</altitudMode>
+         </LineString>
+         <Style id="Paseo por el centro de Oviedo">
+            <LineStyle>
+               <color>#ff0000ff</color>
+               <width>5</width>
+            </LineStyle>
+         </Style>
+      </Placemark>
+      <Placemark>Oviedo-Santander<LineString>
+            <extrude>1</extrude>
+            <teselate>1</teselate>
+            <coordinates>
+-5.845863,42.362119,430
+-5.845863,42.362119,430
+-5.193098,42.418382,90
+-3.780842,42.472422,0</coordinates>
+            <altitudMode>absolute</altitudMode>
+         </LineString>
+         <Style id="Oviedo-Santander">
+            <LineStyle>
+               <color>#ff0000ff</color>
+               <width>5</width>
+            </LineStyle>
+         </Style>
+      </Placemark>
+      <Placemark>Paseo por el centro de Oviedo<LineString>
+            <extrude>1</extrude>
+            <teselate>1</teselate>
+            <coordinates>
+-5.544373,43.762350,450
+-5.544373,43.762350,450
+-5.541326,43.762573,300
+-5.537325,43.767712,1000</coordinates>
+            <altitudMode>absolute</altitudMode>
+         </LineString>
+         <Style id="Paseo por el centro de Oviedo">
+            <LineStyle>
+               <color>#ff0000ff</color>
+               <width>5</width>
+            </LineStyle>
+         </Style>
+      </Placemark>
+      <Placemark>Oviedo-Santander<LineString>
+            <extrude>1</extrude>
+            <teselate>1</teselate>
+            <coordinates>
+-5.845863,40.362119,430
+-5.845863,40.362119,430
+-5.193098,40.418382,90
+-3.780842,40.472422,30</coordinates>
+            <altitudMode>absolute</altitudMode>
+         </LineString>
+         <Style id="Oviedo-Santander">
+            <LineStyle>
+               <color>#ff0000ff</color>
+               <width>5</width>
+            </LineStyle>
+         </Style>
+      </Placemark>
+   </Document>
+</kml>

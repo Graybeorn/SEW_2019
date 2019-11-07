@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<svg width="100vw" height="100vh" style="overflow:visible" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<polyline points="20,200 320,170 420,175 490,200 490,200 20,200" style="fill:none;stroke:red;stroke-width:3"/>
+<text transform="translate(20,220) rotate(90) translate(-20,-220)" x="20" y="220" fill="black">Plaza de la Catedral</text>
+<text transform="translate(320,220) rotate(90) translate(-320,-220)" x="320" y="220" fill="black">Catedral de oviedo</text>
+<text transform="translate(420,220) rotate(90) translate(-420,-220)" x="420" y="220" fill="black">Murallas de la ciudad de Oviedo</text>
+<text transform="translate(490,220) rotate(90) translate(-490,-220)" x="490" y="220" fill="black">San Julián de los Prados</text>
+</svg>
