@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coleccion>
+<coleccion>
+	<pelicula>
+		<titulo>Terminator: Dark fate</titulo>
+		<fecha>2019</fecha>
+		<director>Jamse Cameron</director>
+		<actores>
+			<actor>Arnold Schwarzenegger</actor>
+			<actor>Linda Hamilton</actor>
+			<actor>Mackenzie Davis</actor>
+			<actor>Natalia Reyes</actor>
+		</actores>
+	</pelicula>
+	<pelicula>
+		<titulo>Alien</titulo>
+		<fecha>1979</fecha>
+		<director>Ridley Scott</director>
+		<actores>
+			<actor>Sigourney Weaver</actor>
+			<actor>Tom Skerritt</actor>
+			<actor>Veronica Cartwright</actor>
+		</actores>
+	</pelicula>
+	<pelicula>
+		<titulo>The Matrix</titulo>
+		<fecha>1999</fecha>
+		<director>The Wachowskis</director>
+		<actores>
+			<actor>Keanu Reeves</actor>
+		</actores>
+	</pelicula>
+	<pelicula>
+		<titulo>Star Wars: Episode IV</titulo>
+		<fecha>1977</fecha>
+		<director>George Lucas</director>
+	</pelicula>
+	<pelicula>
+		<titulo>Spirited Away</titulo>
+		<fecha>2001</fecha>
+		<director>Hayao Miyazaki</director>
+	</pelicula>
+</coleccion>

@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href ="tarea1.xsl"?>
-<!DOCTYPE rutas SYSTEM "..\Ejercicio1\tarea2.dtd">
-<rutas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="..\Ejercicio1\tarea5.xsd">
+<!DOCTYPE rutas>
+<rutas>
 	<ruta tipo="Arquitectura y monumentos" medio="A pie" duracion="PT1H" agencia="AsturOcio" adecuadoPara="Todos" recomendacion="7">
 		<nombre>Paseo por el centro de Oviedo</nombre>
 		<descripcion>Disfruta de una visita guiada a través del casco historíco de Oviedo, pasando por sus edificios más emblemáticos.</descripcion>
 		
 		<inicio direccion="Plaza Alfonso II el Casto, 33003 Oviedo, Asturias">
             <lugar>Plaza de la Catedral</lugar>
-            <coordenadas latitud="43.362350" longitud="-5.844373" altitud="435"></coordenadas>
+            <coordenadas latitud="43.362350" longitud="-5.844373" altitud="20"></coordenadas>
 		</inicio>
 
 		<fechaInicio>2019-10-29</fechaInicio>
 		<horaInicio>12:00:00</horaInicio>
 
         <hitos>
-            <hito distancia="0" unidades="km">
-                <coordenadas latitud="43.362350" longitud="-5.844373" altitud="435"></coordenadas>
+            <hito distancia="10" unidades="km">
+                <coordenadas latitud="43.362350" longitud="-5.844373" altitud="70"></coordenadas>
                 <nombreHito>Catedral de oviedo</nombreHito>
                 <descripcionHito>Uno de los edificios más emblemáticos de la ciudad. De estilo gótico, reconstruida tras la guerra civil, etc etc.</descripcionHito>
                 <imagenes>
@@ -25,8 +23,8 @@
                 </imagenes>
                 <videos></videos>
             </hito>        
-            <hito distancia="0.5" unidades="km">
-                <coordenadas latitud="43.362573" longitud="-5.841326" altitud="430"></coordenadas>
+            <hito distancia="8" unidades="km">
+                <coordenadas latitud="43.362573" longitud="-5.941326" altitud="30"></coordenadas>
                 <nombreHito>Murallas de la ciudad de Oviedo</nombreHito>
                 <descripcionHito>Fragmento en excelente estado de conservación de las antiguas murallas de Oviedo.</descripcionHito>
                 <imagenes>
@@ -34,8 +32,8 @@
                 </imagenes>
                 <videos></videos>
             </hito>        
-            <hito distancia="1" unidades="km">
-                <coordenadas latitud="43.367712" longitud="-5.837325" altitud="400"></coordenadas>
+            <hito distancia="10" unidades="km">
+                <coordenadas latitud="43.387712" longitud="-5.837325" altitud="50"></coordenadas>
                 <nombreHito>San Julián de los Prados</nombreHito>
                 <descripcionHito>La basílica de San Julián de los Prados o Santullano, (en asturiano: Santuyano), es una Iglesia prerrománica 
                     de principios del siglo IX que se encuentra en Oviedo (Principado de Asturias), siendo una de las principales muestras del arte asturiano. 
@@ -63,12 +61,12 @@
 		
 		<inicio direccion="Calle Ramón y Cajal, 16, 33003 Oviedo, Asturias">
             <lugar>Jamón Jamón</lugar>
-            <coordenadas latitud="43.362119" longitud="-5.845863" altitud="430"></coordenadas>
+            <coordenadas latitud="43.362119" longitud="-5.845863" altitud="30"></coordenadas>
         </inicio>
 		
         <hitos>
-            <hito distancia="0" unidades="km">
-                <coordenadas latitud="43.362119" longitud="-5.845863" altitud="430"></coordenadas>
+            <hito distancia="20" unidades="km">
+                <coordenadas latitud="43.362119" longitud="-5.845863" altitud="40"></coordenadas>
                 <nombreHito>Jamón Jamón</nombreHito>
                 <descripcionHito>Comenzamos la ruta en un emblemático local de Oviedo en el que tomar unas tapas y un vino</descripcionHito>
                 <imagenes>
@@ -76,8 +74,8 @@
                 </imagenes>
                 <videos></videos>
             </hito>        
-            <hito distancia="90" unidades="km">
-                <coordenadas latitud="43.418382" longitud="-5.193098" altitud="500"></coordenadas>
+            <hito distancia="15" unidades="km">
+                <coordenadas latitud="43.418382" longitud="-5.193098" altitud="100"></coordenadas>
                 <nombreHito>Casa Marcial</nombreHito>
                 <descripcionHito>De esa extraordinaria despensa de la cocina asturiana, "que todavía no se pone en valor", va a 
                     recuperar el trigo de escanda, el cerdo autóctono, las nueces y avellanas de temporada o la vaca casina.</descripcionHito>
@@ -89,8 +87,8 @@
                     <video>resources/video.mp4</video>
                 </videos>
             </hito>         
-            <hito distancia="105" unidades="km">
-                <coordenadas latitud="43.472422" longitud="-3.780842" altitud="30"></coordenadas>
+            <hito distancia="3" unidades="km">
+                <coordenadas latitud="43.472422" longitud="-3.780842" altitud="90"></coordenadas>
                 <nombreHito>Primra playa el Sardinero</nombreHito>
                 <descripcionHito>El Sardinero cuenta con dos playas con su mismo nombre. Una es la Primera Playa del Sardinero y la otra es la Segunda Playa del Sardinero. 
                     Son dos playas distintas aunque están seguidas en la línea de costa y cuando baja la marea se unen.</descripcionHito>
@@ -115,15 +113,15 @@
 		
 		<inicio direccion="Plaza Alfonso II el Casto, 33003 Oviedo, Asturias">
             <lugar>Plaza de la Catedral</lugar>
-            <coordenadas latitud="43.362350" longitud="-5.844373" altitud="200"></coordenadas>
+            <coordenadas latitud="41.362350" longitud="-5.844373" altitud="1000"></coordenadas>
 		</inicio>
 
 		<fechaInicio>2019-10-29</fechaInicio>
 		<horaInicio>12:00:00</horaInicio>
 
         <hitos>
-            <hito distancia="0" unidades="km">
-                <coordenadas latitud="43.362350" longitud="-5.844373" altitud="200"></coordenadas>
+            <hito distancia="30" unidades="km">
+                <coordenadas latitud="41.362350" longitud="-5.844373" altitud="1030"></coordenadas>
                 <nombreHito>Catedral de oviedo</nombreHito>
                 <descripcionHito>Uno de los edificios más emblemáticos de la ciudad. De estilo gótico, reconstruida tras la guerra civil, etc etc.</descripcionHito>
                 <imagenes>
@@ -131,8 +129,8 @@
                 </imagenes>
                 <videos></videos>
             </hito>        
-            <hito distancia="0.5" unidades="km">
-                <coordenadas latitud="43.362573" longitud="-5.841326" altitud="500"></coordenadas>
+            <hito distancia="10" unidades="km">
+                <coordenadas latitud="41.362573" longitud="-5.841326" altitud="1025"></coordenadas>
                 <nombreHito>Murallas de la ciudad de Oviedo</nombreHito>
                 <descripcionHito>Fragmento en excelente estado de conservación de las antiguas murallas de Oviedo.</descripcionHito>
                 <imagenes>
@@ -140,8 +138,8 @@
                 </imagenes>
                 <videos></videos>
             </hito>        
-            <hito distancia="1" unidades="km">
-                <coordenadas latitud="43.367712" longitud="-5.837325" altitud="100"></coordenadas>
+            <hito distancia="7" unidades="km">
+                <coordenadas latitud="41.367712" longitud="-5.837325" altitud="1000"></coordenadas>
                 <nombreHito>San Julián de los Prados</nombreHito>
                 <descripcionHito>La basílica de San Julián de los Prados o Santullano, (en asturiano: Santuyano), es una Iglesia prerrománica 
                     de principios del siglo IX que se encuentra en Oviedo (Principado de Asturias), siendo una de las principales muestras del arte asturiano. 
@@ -169,12 +167,12 @@
 		
 		<inicio direccion="Calle Ramón y Cajal, 16, 33003 Oviedo, Asturias">
             <lugar>Jamón Jamón</lugar>
-            <coordenadas latitud="43.362119" longitud="-5.845863" altitud="430"></coordenadas>
+            <coordenadas latitud="42.362119" longitud="-5.845863" altitud="0"></coordenadas>
         </inicio>
 		
         <hitos>
-            <hito distancia="0" unidades="km">
-                <coordenadas latitud="43.362119" longitud="-5.845863" altitud="430"></coordenadas>
+            <hito distancia="10" unidades="km">
+                <coordenadas latitud="42.362119" longitud="-5.845863" altitud="20"></coordenadas>
                 <nombreHito>Jamón Jamón</nombreHito>
                 <descripcionHito>Comenzamos la ruta en un emblemático local de Oviedo en el que tomar unas tapas y un vino</descripcionHito>
                 <imagenes>
@@ -182,8 +180,8 @@
                 </imagenes>
                 <videos></videos>
             </hito>        
-            <hito distancia="90" unidades="km">
-                <coordenadas latitud="43.418382" longitud="-5.193098" altitud="90"></coordenadas>
+            <hito distancia="8" unidades="km">
+                <coordenadas latitud="42.418382" longitud="-5.193098" altitud="14"></coordenadas>
                 <nombreHito>Casa Marcial</nombreHito>
                 <descripcionHito>De esa extraordinaria despensa de la cocina asturiana, "que todavía no se pone en valor", va a 
                     recuperar el trigo de escanda, el cerdo autóctono, las nueces y avellanas de temporada o la vaca casina.</descripcionHito>
@@ -195,8 +193,8 @@
                     <video>resources/video.mp4</video>
                 </videos>
             </hito>         
-            <hito distancia="105" unidades="km">
-                <coordenadas latitud="43.472422" longitud="-3.780842" altitud="0"></coordenadas>
+            <hito distancia="4" unidades="km">
+                <coordenadas latitud="42.472422" longitud="-3.780842" altitud="7"></coordenadas>
                 <nombreHito>Primra playa el Sardinero</nombreHito>
                 <descripcionHito>El Sardinero cuenta con dos playas con su mismo nombre. Una es la Primera Playa del Sardinero y la otra es la Segunda Playa del Sardinero. 
                     Son dos playas distintas aunque están seguidas en la línea de costa y cuando baja la marea se unen.</descripcionHito>
@@ -221,15 +219,15 @@
 		
 		<inicio direccion="Plaza Alfonso II el Casto, 33003 Oviedo, Asturias">
             <lugar>Plaza de la Catedral</lugar>
-            <coordenadas latitud="43.362350" longitud="-5.844373" altitud="450"></coordenadas>
+            <coordenadas latitud="43.762350" longitud="-5.544373" altitud="5"></coordenadas>
 		</inicio>
 
 		<fechaInicio>2019-10-29</fechaInicio>
 		<horaInicio>12:00:00</horaInicio>
 		
         <hitos>
-            <hito distancia="0" unidades="km">
-                <coordenadas latitud="43.362350" longitud="-5.844373" altitud="450"></coordenadas>
+            <hito distancia="7" unidades="km">
+                <coordenadas latitud="43.762350" longitud="-5.544373" altitud="4"></coordenadas>
                 <nombreHito>Catedral de oviedo</nombreHito>
                 <descripcionHito>Uno de los edificios más emblemáticos de la ciudad. De estilo gótico, reconstruida tras la guerra civil, etc etc.</descripcionHito>
                 <imagenes>
@@ -237,8 +235,8 @@
                 </imagenes>
                 <videos></videos>
             </hito>        
-            <hito distancia="0.5" unidades="km">
-                <coordenadas latitud="43.362573" longitud="-5.841326" altitud="300"></coordenadas>
+            <hito distancia="9" unidades="km">
+                <coordenadas latitud="43.762573" longitud="-5.541326" altitud="10"></coordenadas>
                 <nombreHito>Murallas de la ciudad de Oviedo</nombreHito>
                 <descripcionHito>Fragmento en excelente estado de conservación de las antiguas murallas de Oviedo.</descripcionHito>
                 <imagenes>
@@ -246,8 +244,8 @@
                 </imagenes>
                 <videos></videos>
             </hito>        
-            <hito distancia="1" unidades="km">
-                <coordenadas latitud="43.367712" longitud="-5.837325" altitud="1000"></coordenadas>
+            <hito distancia="7" unidades="km">
+                <coordenadas latitud="43.767712" longitud="-5.537325" altitud="50"></coordenadas>
                 <nombreHito>San Julián de los Prados</nombreHito>
                 <descripcionHito>La basílica de San Julián de los Prados o Santullano, (en asturiano: Santuyano), es una Iglesia prerrománica 
                     de principios del siglo IX que se encuentra en Oviedo (Principado de Asturias), siendo una de las principales muestras del arte asturiano. 
@@ -275,12 +273,12 @@
 		
 		<inicio direccion="Calle Ramón y Cajal, 16, 33003 Oviedo, Asturias">
             <lugar>Jamón Jamón</lugar>
-            <coordenadas latitud="43.362119" longitud="-5.845863" altitud="430"></coordenadas>
+            <coordenadas latitud="40.362119" longitud="-5.845863" altitud="40"></coordenadas>
         </inicio>
 		
         <hitos>
-            <hito distancia="0" unidades="km">
-                <coordenadas latitud="43.362119" longitud="-5.845863" altitud="430"></coordenadas>
+            <hito distancia="10" unidades="km">
+                <coordenadas latitud="40.362119" longitud="-5.845863" altitud="43"></coordenadas>
                 <nombreHito>Jamón Jamón</nombreHito>
                 <descripcionHito>Comenzamos la ruta en un emblemático local de Oviedo en el que tomar unas tapas y un vino</descripcionHito>
                 <imagenes>
@@ -288,8 +286,8 @@
                 </imagenes>
                 <videos></videos>
             </hito>        
-            <hito distancia="90" unidades="km">
-                <coordenadas latitud="43.418382" longitud="-5.193098" altitud="90"></coordenadas>
+            <hito distancia="10" unidades="km">
+                <coordenadas latitud="40.418382" longitud="-5.193098" altitud="60"></coordenadas>
                 <nombreHito>Casa Marcial</nombreHito>
                 <descripcionHito>De esa extraordinaria despensa de la cocina asturiana, "que todavía no se pone en valor", va a 
                     recuperar el trigo de escanda, el cerdo autóctono, las nueces y avellanas de temporada o la vaca casina.</descripcionHito>
@@ -301,8 +299,8 @@
                     <video>resources/video.mp4</video>
                 </videos>
             </hito>         
-            <hito distancia="105" unidades="km">
-                <coordenadas latitud="43.472422" longitud="-3.780842" altitud="30"></coordenadas>
+            <hito distancia="10" unidades="km">
+                <coordenadas latitud="40.472422" longitud="-3.780842" altitud="40"></coordenadas>
                 <nombreHito>Primra playa el Sardinero</nombreHito>
                 <descripcionHito>El Sardinero cuenta con dos playas con su mismo nombre. Una es la Primera Playa del Sardinero y la otra es la Segunda Playa del Sardinero. 
                     Son dos playas distintas aunque están seguidas en la línea de costa y cuando baja la marea se unen.</descripcionHito>

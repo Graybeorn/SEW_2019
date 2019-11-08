@@ -1,0 +1,6 @@
+Para los ejercicios 3 y 4 he creado una aplicación en Java13 para gestionar una videoteca de películas.
+Permite tanto importar como exportar datos en XML.
+Para importar, seleccionar "abrir archivo", e introducir la dirección en la que se encuentra.
+Para exportar, selecinar "guardar". Se puede exportar en un formato de texto, legible, o en un xml que puede ser usado por la aplicación.
+El sistema permite añadir, editar y eliminar elementos de la colección.
+Usa la librería DOM para procesar documentos en XML.

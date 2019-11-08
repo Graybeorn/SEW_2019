@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coleccion>
+<coleccion>
+	<pelicula>
+		<titulo>Terminator: Dark fate</titulo>
+		<fecha>2019</fecha>
+		<director>Jamse Cameron</director>
+		<actores>
+			<actor>Arnold Schwarzenegger</actor>
+			<actor>Linda Hamilton</actor>
+			<actor>Mackenzie Davis</actor>
+			<actor>Natalia Reyes</actor>
+		</actores>
+	</pelicula>
+	<pelicula>
+		<titulo>The Pianist</titulo>
+		<fecha>2002</fecha>
+		<director>Roman Polanski</director>
+		<actores>
+			<actor>Adrien Broody</actor>
+			<actor>Thomas Kretschmann</actor>
+			<actor>Frank Finlay</actor>
+		</actores>
+	</pelicula>
+	<pelicula>
+		<titulo>Alien</titulo>
+		<fecha>1979</fecha>
+		<director>Ridley Scott</director>
+		<actores>
+			<actor>Sigourney Weaver</actor>
+			<actor>Tom Skerritt</actor>
+			<actor>Veronica Cartwright</actor>
+		</actores>
+	</pelicula>
+	<pelicula>
+		<titulo>The Matrix</titulo>
+		<fecha>1999</fecha>
+		<director>The Wachowskis</director>
+		<actores>
+			<actor>Keanu Reeves</actor>
+		</actores>
+	</pelicula>
+	<pelicula>
+		<titulo>Titanic</titulo>
+		<fecha>1997</fecha>
+	</pelicula>
+	<pelicula>
+		<titulo>Star Wars: Episode IV</titulo>
+		<fecha>1977</fecha>
+		<director>George Lucas</director>
+	</pelicula>
+</coleccion>

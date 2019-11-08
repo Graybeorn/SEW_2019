@@ -1,0 +1,20 @@
+-------------- Colección de películas --------------
+* Terminator: Dark fate(2019, dirigida por Jamse Cameron)
+ Reparto:
+	 - Arnold Schwarzenegger
+	 - Linda Hamilton
+	 - Mackenzie Davis
+	 - Natalia Reyes
+
+* Alien(1979, dirigida por Ridley Scott)
+ Reparto:
+	 - Sigourney Weaver
+	 - Tom Skerritt
+	 - Veronica Cartwright
+
+* The Matrix(1999, dirigida por The Wachowskis)
+ Reparto:
+	 - Keanu Reeves
+
+* Star Wars: Episode IV(1977, dirigida por George Lucas)
+* Spirited Away(2001, dirigida por Hayao Miyazaki)

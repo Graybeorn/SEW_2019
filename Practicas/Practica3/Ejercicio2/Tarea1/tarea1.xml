@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href ="tarea1.xsl"?>
+<!DOCTYPE rutas SYSTEM "tarea2.dtd">
+<rutas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="tarea5.xsd">
+	<ruta tipo="Arquitectura y monumentos" medio="A pie" duracion="PT1H" agencia="AsturOcio" adecuadoPara="Todos" recomendacion="7">
+		<nombre>Paseo por el centro de Oviedo</nombre>
+		<descripcion>Disfruta de una visita guiada a través del casco historíco de Oviedo, pasando por sus edificios más emblemáticos.</descripcion>
+		
+		<inicio direccion="Plaza Alfonso II el Casto, 33003 Oviedo, Asturias">
+            <lugar>Plaza de la Catedral</lugar>
+            <coordenadas latitud="43.362350" longitud="-5.844373" altitud="435"></coordenadas>
+		</inicio>
+
+		<fechaInicio>2019-10-29</fechaInicio>
+		<horaInicio>12:00:00</horaInicio>
+
+        <hitos>
+            <hito distancia="0" unidades="km">
+                <coordenadas latitud="43.362350" longitud="-5.844373" altitud="435"></coordenadas>
+                <nombreHito>Catedral de oviedo</nombreHito>
+                <descripcionHito>Uno de los edificios más emblemáticos de la ciudad. De estilo gótico, reconstruida tras la guerra civil, etc etc.</descripcionHito>
+                <imagenes>
+                    <imagen>https://viajecaminodesantiago.com/wp-content/uploads/2019/03/portada-catedral-1024x639.jpg</imagen>
+                </imagenes>
+                <videos></videos>
+            </hito>        
+            <hito distancia="0.5" unidades="km">
+                <coordenadas latitud="43.362573" longitud="-5.841326" altitud="430"></coordenadas>
+                <nombreHito>Murallas de la ciudad de Oviedo</nombreHito>
+                <descripcionHito>Fragmento en excelente estado de conservación de las antiguas murallas de Oviedo.</descripcionHito>
+                <imagenes>
+                    <imagen>https://upload.wikimedia.org/wikipedia/commons/3/32/Muralla_de_Oviedo_1.jpg</imagen>
+                </imagenes>
+                <videos></videos>
+            </hito>        
+            <hito distancia="1" unidades="km">
+                <coordenadas latitud="43.367712" longitud="-5.837325" altitud="400"></coordenadas>
+                <nombreHito>San Julián de los Prados</nombreHito>
+                <descripcionHito>La basílica de San Julián de los Prados o Santullano, (en asturiano: Santuyano), es una Iglesia prerrománica 
+                    de principios del siglo IX que se encuentra en Oviedo (Principado de Asturias), siendo una de las principales muestras del arte asturiano. 
+                    La iglesia está dedicada a los santos mártires Julián y Basilisa.
+                    Fue declarada Monumento Histórico Artístico en junio de 1917 y Patrimonio de la Humanidad el 2 de diciembre de 1998.1​</descripcionHito>
+                <imagenes>
+                    <imagen>https://www.turismoasturias.es/documents/11022/72475/PRSanJulian1.jpg/29c9a75a-f977-489b-ad4a-b7fe0b23a718?t=1389299642670</imagen>
+                    <imagen>https://www.turismoasturias.es/documents/11022/72475/San_Julian_de_los_Prados_Oviedo_01.jpg/9289aa39-5549-41fe-9c8d-d7a903ba6e01?t=1540825085734</imagen>
+                    <imagen>https://www.turismoasturias.es/documents/11022/72475/PRSanJulian4.jpg?t=1389296053198</imagen>
+                </imagenes>
+                <videos></videos>
+            </hito>
+        </hitos>     
+
+		<bibliografia>
+			<ref>https://www.turismoasturias.es/en/descubre/ciudades/oviedo	</ref>
+			<ref>https://www.desdeasturias.com/el-casco-historico-de-oviedo/</ref>
+			<ref>https://www.europapress.es/asturias/noticia-cinco-rutas-senderismo-oviedo-20150123111347.html</ref>
+		</bibliografia>
+	</ruta>
+
+	<ruta tipo="Gastronómica" medio="Automóvil" duracion="PT4H" agencia="sin agencia" adecuadoPara="Parejas" recomendacion="9">
+		<nombre>Oviedo-Santander</nombre>
+		<descripcion>Viaje Oviedo-Sntander con pausa para comer, ideal parejas. Precio aproximado 100€ 2 personas.</descripcion>
+		
+		<inicio direccion="Calle Ramón y Cajal, 16, 33003 Oviedo, Asturias">
+            <lugar>Jamón Jamón</lugar>
+            <coordenadas latitud="43.362119" longitud="-5.845863" altitud="430"></coordenadas>
+        </inicio>
+		
+        <hitos>
+            <hito distancia="0" unidades="km">
+                <coordenadas latitud="43.362119" longitud="-5.845863" altitud="430"></coordenadas>
+                <nombreHito>Jamón Jamón</nombreHito>
+                <descripcionHito>Comenzamos la ruta en un emblemático local de Oviedo en el que tomar unas tapas y un vino</descripcionHito>
+                <imagenes>
+                    <imagen>https://media-cdn.tripadvisor.com/media/photo-s/04/2c/92/e4/getlstd-property-photo_rotated_90.jpg</imagen>
+                </imagenes>
+                <videos></videos>
+            </hito>        
+            <hito distancia="90" unidades="km">
+                <coordenadas latitud="43.418382" longitud="-5.193098" altitud="500"></coordenadas>
+                <nombreHito>Casa Marcial</nombreHito>
+                <descripcionHito>De esa extraordinaria despensa de la cocina asturiana, "que todavía no se pone en valor", va a 
+                    recuperar el trigo de escanda, el cerdo autóctono, las nueces y avellanas de temporada o la vaca casina.</descripcionHito>
+                <imagenes>
+                    <imagen>https://s3-eu-west-1.amazonaws.com/gr-cms/media/filer_public/dd/60/dd605585-332d-45cb-ac4d-b512fba7affa/3.jpg</imagen>
+                    <imagen>https://s3-eu-west-1.amazonaws.com/gr-cms/media/filer_public/56/2c/562cf0a7-51dc-4463-862b-afb7900862d2/4.jpg</imagen>
+                </imagenes>
+                <videos>
+                    <video>resources/video.mp4 </video>
+                </videos>
+            </hito>         
+            <hito distancia="105" unidades="km">
+                <coordenadas latitud="43.472422" longitud="-3.780842" altitud="30"></coordenadas>
+                <nombreHito>Primra playa el Sardinero</nombreHito>
+                <descripcionHito>El Sardinero cuenta con dos playas con su mismo nombre. Una es la Primera Playa del Sardinero y la otra es la Segunda Playa del Sardinero. 
+                    Son dos playas distintas aunque están seguidas en la línea de costa y cuando baja la marea se unen.</descripcionHito>
+                <imagenes>
+                    <imagen>https://upload.wikimedia.org/wikipedia/commons/c/c9/Playa_Sardinero_-_Santander_-_Spain.jpg</imagen>
+                    <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Santander_-_beach_4.jpg/1024px-Santander_-_beach_4.jpg</imagen>
+                </imagenes>
+                <videos></videos>
+            </hito>        
+        </hitos>
+
+		<bibliografia>
+			<ref>https://www.viamichelin.com</ref>
+			<ref>https://www.viamichelin.com/web/Restaurant/La_Salgar-33549-Casa_Marcial-2xlsklq</ref>
+			<ref>https://www.guiarepsol.com/es/comer/nuestros-favoritos/restaurante-casa-marcial-arriondas-de-nacho-manzano-3-soles-reps/</ref>
+		</bibliografia>
+	</ruta>
+
+    <ruta tipo="Arquitectura y monumentos" medio="A pie" duracion="PT1H30M" agencia="AsturOcio" adecuadoPara="Todos" recomendacion="7">
+		<nombre>Paseo por el centro de Oviedo</nombre>
+		<descripcion>Disfruta de una visita guiada a través del casco historíco de Oviedo, pasando por sus edificios más emblemáticos.</descripcion>
+		
+		<inicio direccion="Plaza Alfonso II el Casto, 33003 Oviedo, Asturias">
+            <lugar>Plaza de la Catedral</lugar>
+            <coordenadas latitud="43.362350" longitud="-5.844373" altitud="200"></coordenadas>
+		</inicio>
+
+		<fechaInicio>2019-10-29</fechaInicio>
+		<horaInicio>12:00:00</horaInicio>
+
+        <hitos>
+            <hito distancia="0" unidades="km">
+                <coordenadas latitud="43.362350" longitud="-5.844373" altitud="200"></coordenadas>
+                <nombreHito>Catedral de oviedo</nombreHito>
+                <descripcionHito>Uno de los edificios más emblemáticos de la ciudad. De estilo gótico, reconstruida tras la guerra civil, etc etc.</descripcionHito>
+                <imagenes>
+                    <imagen>https://viajecaminodesantiago.com/wp-content/uploads/2019/03/portada-catedral-1024x639.jpg</imagen>
+                </imagenes>
+                <videos></videos>
+            </hito>        
+            <hito distancia="0.5" unidades="km">
+                <coordenadas latitud="43.362573" longitud="-5.841326" altitud="500"></coordenadas>
+                <nombreHito>Murallas de la ciudad de Oviedo</nombreHito>
+                <descripcionHito>Fragmento en excelente estado de conservación de las antiguas murallas de Oviedo.</descripcionHito>
+                <imagenes>
+                    <imagen>https://upload.wikimedia.org/wikipedia/commons/3/32/Muralla_de_Oviedo_1.jpg</imagen>
+                </imagenes>
+                <videos></videos>
+            </hito>        
+            <hito distancia="1" unidades="km">
+                <coordenadas latitud="43.367712" longitud="-5.837325" altitud="100"></coordenadas>
+                <nombreHito>San Julián de los Prados</nombreHito>
+                <descripcionHito>La basílica de San Julián de los Prados o Santullano, (en asturiano: Santuyano), es una Iglesia prerrománica 
+                    de principios del siglo IX que se encuentra en Oviedo (Principado de Asturias), siendo una de las principales muestras del arte asturiano. 
+                    La iglesia está dedicada a los santos mártires Julián y Basilisa.
+                    Fue declarada Monumento Histórico Artístico en junio de 1917 y Patrimonio de la Humanidad el 2 de diciembre de 1998.1​</descripcionHito>
+                <imagenes>
+                    <imagen>https://www.turismoasturias.es/documents/11022/72475/PRSanJulian1.jpg/29c9a75a-f977-489b-ad4a-b7fe0b23a718?t=1389299642670</imagen>
+                    <imagen>https://www.turismoasturias.es/documents/11022/72475/San_Julian_de_los_Prados_Oviedo_01.jpg/9289aa39-5549-41fe-9c8d-d7a903ba6e01?t=1540825085734</imagen>
+                    <imagen>https://www.turismoasturias.es/documents/11022/72475/PRSanJulian4.jpg?t=1389296053198</imagen>
+                </imagenes>
+                <videos></videos>
+            </hito>
+        </hitos>     
+
+		<bibliografia>
+			<ref>https://www.turismoasturias.es/en/descubre/ciudades/oviedo	</ref>
+			<ref>https://www.desdeasturias.com/el-casco-historico-de-oviedo/</ref>
+			<ref>https://www.europapress.es/asturias/noticia-cinco-rutas-senderismo-oviedo-20150123111347.html</ref>
+		</bibliografia>
+	</ruta>
+
+	<ruta tipo="Gastronómica" medio="Automóvil" duracion="P1D" agencia="sin agencia" adecuadoPara="Parejas" recomendacion="9">
+		<nombre>Oviedo-Santander</nombre>
+		<descripcion>Viaje Oviedo-Sntander con pausa para comer, ideal parejas. Precio aproximado 100€ 2 personas.</descripcion>
+		
+		<inicio direccion="Calle Ramón y Cajal, 16, 33003 Oviedo, Asturias">
+            <lugar>Jamón Jamón</lugar>
+            <coordenadas latitud="43.362119" longitud="-5.845863" altitud="430"></coordenadas>
+        </inicio>
+		
+        <hitos>
+            <hito distancia="0" unidades="km">
+                <coordenadas latitud="43.362119" longitud="-5.845863" altitud="430"></coordenadas>
+                <nombreHito>Jamón Jamón</nombreHito>
+                <descripcionHito>Comenzamos la ruta en un emblemático local de Oviedo en el que tomar unas tapas y un vino</descripcionHito>
+                <imagenes>
+                    <imagen>https://media-cdn.tripadvisor.com/media/photo-s/04/2c/92/e4/getlstd-property-photo_rotated_90.jpg</imagen>
+                </imagenes>
+                <videos></videos>
+            </hito>        
+            <hito distancia="90" unidades="km">
+                <coordenadas latitud="43.418382" longitud="-5.193098" altitud="90"></coordenadas>
+                <nombreHito>Casa Marcial</nombreHito>
+                <descripcionHito>De esa extraordinaria despensa de la cocina asturiana, "que todavía no se pone en valor", va a 
+                    recuperar el trigo de escanda, el cerdo autóctono, las nueces y avellanas de temporada o la vaca casina.</descripcionHito>
+                <imagenes>
+                    <imagen>https://s3-eu-west-1.amazonaws.com/gr-cms/media/filer_public/dd/60/dd605585-332d-45cb-ac4d-b512fba7affa/3.jpg</imagen>
+                    <imagen>https://s3-eu-west-1.amazonaws.com/gr-cms/media/filer_public/56/2c/562cf0a7-51dc-4463-862b-afb7900862d2/4.jpg</imagen>
+                </imagenes>
+                <videos>
+                    <video>resources/video.mp4</video>
+                </videos>
+            </hito>         
+            <hito distancia="105" unidades="km">
+                <coordenadas latitud="43.472422" longitud="-3.780842" altitud="0"></coordenadas>
+                <nombreHito>Primra playa el Sardinero</nombreHito>
+                <descripcionHito>El Sardinero cuenta con dos playas con su mismo nombre. Una es la Primera Playa del Sardinero y la otra es la Segunda Playa del Sardinero. 
+                    Son dos playas distintas aunque están seguidas en la línea de costa y cuando baja la marea se unen.</descripcionHito>
+                <imagenes>
+                    <imagen>https://upload.wikimedia.org/wikipedia/commons/c/c9/Playa_Sardinero_-_Santander_-_Spain.jpg</imagen>
+                    <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Santander_-_beach_4.jpg/1024px-Santander_-_beach_4.jpg</imagen>
+                </imagenes>
+                <videos></videos>
+            </hito>        
+        </hitos>
+
+		<bibliografia>
+			<ref>https://www.viamichelin.com</ref>
+			<ref>https://www.viamichelin.com/web/Restaurant/La_Salgar-33549-Casa_Marcial-2xlsklq</ref>
+			<ref>https://www.guiarepsol.com/es/comer/nuestros-favoritos/restaurante-casa-marcial-arriondas-de-nacho-manzano-3-soles-reps/</ref>
+		</bibliografia>
+	</ruta>
+
+    <ruta tipo="Arquitectura y monumentos" medio="A pie" duracion="PT1H" agencia="AsturOcio" adecuadoPara="Todos" recomendacion="7">
+		<nombre>Paseo por el centro de Oviedo</nombre>
+		<descripcion>Disfruta de una visita guiada a través del casco historíco de Oviedo, pasando por sus edificios más emblemáticos.</descripcion>
+		
+		<inicio direccion="Plaza Alfonso II el Casto, 33003 Oviedo, Asturias">
+            <lugar>Plaza de la Catedral</lugar>
+            <coordenadas latitud="43.362350" longitud="-5.844373" altitud="450"></coordenadas>
+		</inicio>
+
+		<fechaInicio>2019-10-29</fechaInicio>
+		<horaInicio>12:00:00</horaInicio>
+		
+        <hitos>
+            <hito distancia="0" unidades="km">
+                <coordenadas latitud="43.362350" longitud="-5.844373" altitud="450"></coordenadas>
+                <nombreHito>Catedral de oviedo</nombreHito>
+                <descripcionHito>Uno de los edificios más emblemáticos de la ciudad. De estilo gótico, reconstruida tras la guerra civil, etc etc.</descripcionHito>
+                <imagenes>
+                    <imagen>https://viajecaminodesantiago.com/wp-content/uploads/2019/03/portada-catedral-1024x639.jpg</imagen>
+                </imagenes>
+                <videos></videos>
+            </hito>        
+            <hito distancia="0.5" unidades="km">
+                <coordenadas latitud="43.362573" longitud="-5.841326" altitud="300"></coordenadas>
+                <nombreHito>Murallas de la ciudad de Oviedo</nombreHito>
+                <descripcionHito>Fragmento en excelente estado de conservación de las antiguas murallas de Oviedo.</descripcionHito>
+                <imagenes>
+                    <imagen>https://upload.wikimedia.org/wikipedia/commons/3/32/Muralla_de_Oviedo_1.jpg</imagen>
+                </imagenes>
+                <videos></videos>
+            </hito>        
+            <hito distancia="1" unidades="km">
+                <coordenadas latitud="43.367712" longitud="-5.837325" altitud="1000"></coordenadas>
+                <nombreHito>San Julián de los Prados</nombreHito>
+                <descripcionHito>La basílica de San Julián de los Prados o Santullano, (en asturiano: Santuyano), es una Iglesia prerrománica 
+                    de principios del siglo IX que se encuentra en Oviedo (Principado de Asturias), siendo una de las principales muestras del arte asturiano. 
+                    La iglesia está dedicada a los santos mártires Julián y Basilisa.
+                    Fue declarada Monumento Histórico Artístico en junio de 1917 y Patrimonio de la Humanidad el 2 de diciembre de 1998.1​</descripcionHito>
+                <imagenes>
+                    <imagen>https://www.turismoasturias.es/documents/11022/72475/PRSanJulian1.jpg/29c9a75a-f977-489b-ad4a-b7fe0b23a718?t=1389299642670</imagen>
+                    <imagen>https://www.turismoasturias.es/documents/11022/72475/San_Julian_de_los_Prados_Oviedo_01.jpg/9289aa39-5549-41fe-9c8d-d7a903ba6e01?t=1540825085734</imagen>
+                    <imagen>https://www.turismoasturias.es/documents/11022/72475/PRSanJulian4.jpg?t=1389296053198</imagen>
+                </imagenes>
+                <videos></videos>
+            </hito>
+        </hitos>     
+
+		<bibliografia>
+			<ref>https://www.turismoasturias.es/en/descubre/ciudades/oviedo	</ref>
+			<ref>https://www.desdeasturias.com/el-casco-historico-de-oviedo/</ref>
+			<ref>https://www.europapress.es/asturias/noticia-cinco-rutas-senderismo-oviedo-20150123111347.html</ref>
+		</bibliografia>
+	</ruta>
+
+	<ruta tipo="Gastronómica" medio="Automóvil" duracion="P1MT10M" agencia="sin agencia" adecuadoPara="Parejas" recomendacion="9">
+		<nombre>Oviedo-Santander</nombre>
+		<descripcion>Viaje Oviedo-Sntander con pausa para comer, ideal parejas. Precio aproximado 100€ 2 personas.</descripcion>
+		
+		<inicio direccion="Calle Ramón y Cajal, 16, 33003 Oviedo, Asturias">
+            <lugar>Jamón Jamón</lugar>
+            <coordenadas latitud="43.362119" longitud="-5.845863" altitud="430"></coordenadas>
+        </inicio>
+		
+        <hitos>
+            <hito distancia="0" unidades="km">
+                <coordenadas latitud="43.362119" longitud="-5.845863" altitud="430"></coordenadas>
+                <nombreHito>Jamón Jamón</nombreHito>
+                <descripcionHito>Comenzamos la ruta en un emblemático local de Oviedo en el que tomar unas tapas y un vino</descripcionHito>
+                <imagenes>
+                    <imagen>https://media-cdn.tripadvisor.com/media/photo-s/04/2c/92/e4/getlstd-property-photo_rotated_90.jpg</imagen>
+                </imagenes>
+                <videos></videos>
+            </hito>        
+            <hito distancia="90" unidades="km">
+                <coordenadas latitud="43.418382" longitud="-5.193098" altitud="90"></coordenadas>
+                <nombreHito>Casa Marcial</nombreHito>
+                <descripcionHito>De esa extraordinaria despensa de la cocina asturiana, "que todavía no se pone en valor", va a 
+                    recuperar el trigo de escanda, el cerdo autóctono, las nueces y avellanas de temporada o la vaca casina.</descripcionHito>
+                <imagenes>
+                    <imagen>https://s3-eu-west-1.amazonaws.com/gr-cms/media/filer_public/dd/60/dd605585-332d-45cb-ac4d-b512fba7affa/3.jpg</imagen>
+                    <imagen>https://s3-eu-west-1.amazonaws.com/gr-cms/media/filer_public/56/2c/562cf0a7-51dc-4463-862b-afb7900862d2/4.jpg</imagen>
+                </imagenes>
+                <videos>
+                    <video>resources/video.mp4</video>
+                </videos>
+            </hito>         
+            <hito distancia="105" unidades="km">
+                <coordenadas latitud="43.472422" longitud="-3.780842" altitud="30"></coordenadas>
+                <nombreHito>Primra playa el Sardinero</nombreHito>
+                <descripcionHito>El Sardinero cuenta con dos playas con su mismo nombre. Una es la Primera Playa del Sardinero y la otra es la Segunda Playa del Sardinero. 
+                    Son dos playas distintas aunque están seguidas en la línea de costa y cuando baja la marea se unen.</descripcionHito>
+                <imagenes>
+                    <imagen>https://upload.wikimedia.org/wikipedia/commons/c/c9/Playa_Sardinero_-_Santander_-_Spain.jpg</imagen>
+                    <imagen>https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Santander_-_beach_4.jpg/1024px-Santander_-_beach_4.jpg</imagen>
+                </imagenes>
+              <videos></videos>
+            </hito>        
+        </hitos>
+
+		<bibliografia>
+			<ref>https://www.viamichelin.com</ref>
+			<ref>https://www.viamichelin.com/web/Restaurant/La_Salgar-33549-Casa_Marcial-2xlsklq</ref>
+			<ref>https://www.guiarepsol.com/es/comer/nuestros-favoritos/restaurante-casa-marcial-arriondas-de-nacho-manzano-3-soles-reps/</ref>
+		</bibliografia>
+	</ruta>
+</rutas>

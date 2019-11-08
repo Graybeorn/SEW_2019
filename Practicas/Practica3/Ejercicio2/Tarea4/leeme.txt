@@ -1,0 +1,4 @@
+La tarea 4 produce los archivos SVG, procesando el XML fuente con la libreria de C#.
+Necesita estar en la misma carpeta que tarea4.xml para funcionar.
+Crea un archivo tarea4.n.svg por cada ruta en la carpeta en la que se encuentre.
+La funcionalidad implementada está en el archivo tarea4.cs

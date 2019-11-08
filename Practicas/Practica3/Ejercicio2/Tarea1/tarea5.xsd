@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="rutas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="5" maxOccurs="unbounded" ref="ruta" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ruta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string" />
+        <xs:element name="descripcion" type="xs:string" />
+        <xs:element ref="inicio" />
+        <xs:element minOccurs="0" maxOccurs="1" name="fechaInicio" type="xs:date"/>
+        <xs:element minOccurs="0" maxOccurs="1" name="horaInicio" type="xs:time"/>
+        <xs:element ref="hitos" />
+        <xs:element ref="bibliografia" />
+      </xs:sequence>
+      <xs:attribute name="tipo" type="xs:string" use="required" />
+      <xs:attribute name="medio" type="xs:string" use="required" />
+      <xs:attribute name="duracion" type="xs:duration" use="required" />
+      <xs:attribute name="agencia" type="xs:string" use="required" />
+      <xs:attribute name="adecuadoPara" type="xs:string" use="required" />
+      <xs:attribute name="recomendacion" type="xs:NMTOKEN" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="inicio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="lugar" type="xs:string" />
+        <xs:element ref="coordenadas" />
+      </xs:sequence>
+      <xs:attribute name="direccion" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="coordenadas">
+    <xs:complexType>
+      <xs:attribute name="latitud" type="xs:double" use="required" />
+      <xs:attribute name="longitud" type="xs:double" use="required" />
+      <xs:attribute name="altitud" type="xs:double" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="hitos">
+    <xs:complexType>
+      <xs:sequence>
+        <!--
+        <xs:element ref="hito" />
+        <xs:element ref="hito" />
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="hito" />
+        -->
+        <xs:element minOccurs="3" maxOccurs="unbounded" ref="hito" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="unidades">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="km"/>
+      <xs:enumeration value="m"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="hito">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="coordenadas" />
+        <xs:element name="nombreHito" type="xs:string" />
+        <xs:element name="descripcionHito" type="xs:string" />
+        <xs:element ref="imagenes" />
+        <xs:element ref="videos" />
+      </xs:sequence>
+      <xs:attribute name="distancia" type="xs:double" use="required" />
+      <xs:attribute name="unidades" type="unidades" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="imagenes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="5" name="imagen" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="videos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="3" name="video" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bibliografia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="3" maxOccurs="unbounded" name="ref" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
