@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang=es>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Calculadora básica</title>
+        <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css">
+    </head>
+    <body>
+        <h1>Calculadora Básica</h1>
+        <table>
+            <tr>
+                <th id="screen" colspan="4"></th>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora.mrc()" id="mrc" class="util">mrc</button></td>
+                <td><button onclick="calculadora.minusM()"id="m-" class="util">m-</button></td>
+                <td><button onclick="calculadora.plusM()"id="m+" class="util">m+</button></td>
+                <td><button onclick="calculadora.div()"id="div" class="op">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora.number(7)" id="7" class="num">7</button></td>
+                <td><button onclick="calculadora.number(8)" id="8" class="num">8</button></td>
+                <td><button onclick="calculadora.number(9)" id="9" class="num">9</button></td>
+                <td><button onclick="calculadora.mul()" id="mul" class="op">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora.number(4)" id="4" class="num">4</button></td>
+                <td><button onclick="calculadora.number(5)" id="5" class="num">5</button></td>
+                <td><button onclick="calculadora.number(6)" id="6" class="num">6</button></td>
+                <td><button onclick="calculadora.sub()" id="sub" class="op">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora.number(1)" id="1" class="num">1</button></td>
+                <td><button onclick="calculadora.number(2)" id="2" class="num">2</button></td>
+                <td><button onclick="calculadora.number(3)" id="3" class="num">3</button></td>
+                <td><button onclick="calculadora.add()" id="add" class="op">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora.number(0)" id="0" class="num">0</button></td>
+                <td><button onclick="calculadora.dot()" id="dot" class="num">.</button></td>
+                <td><button onclick="calculadora.c()" id="c" class="num">c</button></td>
+                <td><button onclick="calculadora.eq()" id="eq" class="num">=</button></td>
+            </tr>
+        </table>
+    </body>
+</html>

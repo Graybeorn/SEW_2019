@@ -1,0 +1,44 @@
+h1{
+    background: rgb(24, 24, 158);
+    color:white;
+    border-radius: 16px;
+    margin:10px;
+    padding: 1.5em;
+    max-width:95%;
+}
+
+h2{
+    background: rgb(122, 122, 212); 
+    border-radius: 16px;
+    margin:10px;
+    padding:1.2em;
+    width:93%;
+}
+
+h3 {
+    background: rgb(148, 148, 228); 
+    border-radius: 16px;
+    margin:10px;
+    padding: 1em;
+    width:90%;
+}
+
+h4{
+    background: rgb(123, 123, 175); 
+    border-radius: 16px;
+    margin:10px;
+    padding: 0.8em;
+    width:88%;
+}
+
+body{
+    background: rgb(174, 174, 228);
+}
+
+p{
+    background: rgb(96, 96, 117); 
+    border-radius: 16px;
+    margin:10px;
+    padding: 0.8em;
+    width:93%;
+}

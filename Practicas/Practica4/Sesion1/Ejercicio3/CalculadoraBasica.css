@@ -1,0 +1,56 @@
+body{
+    background: lightgoldenrodyellow
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+table{
+    background: rgb(46, 46, 46);
+    border-radius: 8px;
+    padding: 16px;
+    box-sizing: border-box;
+    border:none;
+}
+
+td,th{
+    padding:10px;
+}
+
+th{
+    height:40px;
+    background: lightgreen;
+    box-shadow: 2px 2px 0px 2px lightyellow;
+    --webkit-box-shadow: 2px 2px 0px 2px lightyellow;
+    -moz-box-shadow: 2px 2px 0px 2px lightyellow;
+}
+
+td{
+    background: rgb(46, 46, 46, 0);
+}
+
+
+button{
+    height:40px;
+    width: 60px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 3px 3px black;
+    --webkit-box-shadow: 3px 3px black;
+    -moz-box-shadow: 3px 3px black;
+}
+
+button.util{
+    background: rgb(82, 82, 82);
+    color: whitesmoke;
+}
+
+button.num{
+    background:rgb(163, 162, 162);
+    color: whitesmoke;
+}
+
+button.op{
+    background: rgb(211, 69, 69);
+    color: rgb(24,24,24);
+}
