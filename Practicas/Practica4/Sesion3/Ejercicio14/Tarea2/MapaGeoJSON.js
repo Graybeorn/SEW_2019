@@ -17,15 +17,9 @@ class Location {
         } else {
             $("#info").text("Este buscador no ofrece soporte para geolocalizacion.");
         }
-        
-        var geoXml = new geoXML3.parser({
-            map: this.map,
-            infoWindow: this.infoWindow,
-            singleInfoWindow: true,
-            zoom: true,
-            afterParse: function(data){ console.log(data);}
-        });
-        geoXml.parse("https://github.com/UO252376/SEW_2019/blob/master/Practicas/Practica4/Sesion3/Ejercicio14/Tarea1/Tarea1.kml");
+
+        this.map.data.loadGeoJson("https://github.com/UO252376/SEW_2019/blob/master/Practicas/Practica4/Sesion3/Ejercicio14/Tarea2/rutas.GeoJSON");
+
     }
 
     showPosition(position) {
