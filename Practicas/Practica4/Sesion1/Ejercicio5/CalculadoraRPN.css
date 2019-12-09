@@ -54,8 +54,3 @@ button.op{
     background: rgb(211, 69, 69);
     color: rgb(24,24,24);
 }
-
-#screen {
-    text-align:right;
-    height:40px;
-}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 12, tarea6</title>
+    <link rel="stylesheet" href="Tarea6.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <section>
+        <h1>Esta es tu posición</h1>
+        <h2>Puedes crear rutas haciendo click en el mapa. Dale al botón para cerrar el camino y empezar uno nuevo.</h2>
+        <button onclick="api.cerrarCamino()">Nuevo camino</button>
+        <div id="map"></div>
+        <p id="info"></p>
+        <script src="Tarea6.js"></script>
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfk99zVNKvTHEwZ8BeL9FlkDlM_dIMIbU&callback=start">
+        </script>
+    </section>
+</body>

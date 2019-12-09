@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="Ejercicio7.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Bienvenido al ejercicio 7.</h1>
+    <h2>A continuación verás una serie de botones implementando el ejercicio. ¡Pruébalos!</h2>
+    <nav>
+        <button onclick="controller.ocultarYMostrar()">Tarea1</button> <!--Ocultar y mostrar-->
+        <button onclick="controller.modificar()">Tarea2</button> <!--Modificar-->
+        <button onclick="controller.añadir()">Tarea3</button> <!--Añadir-->
+        <button onclick="controller.borrar()">Tarea4</button> <!--Borrar-->
+        <button onclick="controller.recorrer()">Tarea5</button> <!--Recorrer elementos y conseguir su padre y el tipo de elemento-->
+        <button onclick="controller.sumar()">Tarea6</button> <!--Sumar filas y columnas de la tabla-->
+    </nav>
+    <h3>
+        Este cabecero cambia.
+    </h3>
+    <p id="tarea1">Este párrafo desaparece</p>
+    <ul>
+
+    </ul>
+    <table>
+        <tr>
+            <td>Casilla 0,0</td>
+            <td>Casilla 0,1</td>
+            <td>Casilla 0,2</td>
+            <td>Casilla 0,3</td>
+        </tr>
+        <tr>
+            <td>Casilla 1,0</td>
+            <td>Casilla 1,1</td>
+            <td>Casilla 1,2</td>
+            <td>Casilla 1,3</td>
+        </tr>
+        <tr>
+            <td>Casilla 2,0</td>
+            <td>Casilla 2,1</td>
+            <td>Casilla 2,2</td>
+            <td>Casilla 2,3</td>
+        </tr>
+    </table>
+    <p id="salida">Aqui aparecerá la salida de las distintas operaciones.</p>
+    <script src="Ejercicio7.js"></script>
+</body>

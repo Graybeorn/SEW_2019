@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang=es>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Calculadora RPN</title>
+        <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css">
+        <script src="CalculadoraRPN.js"></script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th colspan="4"><p id="screen3">0</p></th>
+            </tr>
+            <tr>
+                <th colspan="4"><p id="screen2">0</p></th>
+            </tr>
+            <tr>
+                <th colspan="4"><p id="screen1">0</p></th>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora.plusM()" class="util">M+</button></td>
+                <td><button onclick="calculadora.minusM()" class="util">M-</button></td>
+                <td><button onclick="calculadora.mr()" class="util">MR</button></td>
+                <td><button onclick="calculadora.mc()" class="util">MC</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora.pow2()" class="util">x<sup>2</sup></button></td>
+                <td><button onclick="calculadora.powY()" class="util">x<sup>y</sup></button></td>
+                <td><button onclick="calculadora.pow10()" class="util">10<sup>x</sup></button></td>
+                <td><button onclick="calculadora.sqrt()" class="util">√</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora.sin()" class="util">sin</button></td>
+                <td><button onclick="calculadora.cos()" class="util">cos</button></td>
+                <td><button onclick="calculadora.tan()" class="util">tan</sup></button></td>
+                <td><button onclick="calculadora.inv()" class="util">1/x</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora.num(7)" class="num">7</button></td>
+                <td><button onclick="calculadora.num(8)" class="num">8</button></td>
+                <td><button onclick="calculadora.num(9)" class="num">9</button></td>
+                <td><button onclick="calculadora.op('+')" class="op">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora.num(4)" class="num">4</button></td>
+                <td><button onclick="calculadora.num(5)" class="num">5</button></td>
+                <td><button onclick="calculadora.num(6)" class="num">6</button></td>
+                <td><button onclick="calculadora.op('-')" class="op">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora.num(1)" class="num">1</button></td>
+                <td><button onclick="calculadora.num(2)" class="num">2</button></td>
+                <td><button onclick="calculadora.num(3)" class="num">3</button></td>
+                <td><button onclick="calculadora.op('*')" class="op">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora.num(0)" class="num">0</button></td>
+                <td><button onclick="calculadora.punto()" class="op">.</button></td>
+                <td><button onclick="calculadora.op('%')" class="op">%</button></td>
+                <td><button onclick="calculadora.num('/')" class="op">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora.c()" class="util">C</button></td>
+                <td><button onclick="calculadora.ac()" class="util">AC</button></td>
+                <td><button onclick="calculadora.pop()" class="util">Pop</button></td>
+                <td><button onclick="calculadora.enter()" class="util">Enter</button></td>
+            </tr>
+        </table>
+    </body>
+</html>

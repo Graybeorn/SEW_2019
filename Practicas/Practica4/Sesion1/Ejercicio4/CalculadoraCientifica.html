@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang=es>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Calculadora Científica</title>
+        <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css">
+        <script src="CalculadoraBasica.js"></script>
+        <script src="CalculadoraCientifica.js"></script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th colspan="5"><p id="screen"></p></th>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <button onclick="calculadora.mc()" class="ext">MC</button>
+                    <button onclick="calculadora.mr()" class="ext">MR</button>
+                    <button onclick="calculadora.plusM()" class="ext">M+</button>
+                    <button onclick="calculadora.minusM()" class="ext">M-</button>
+                    <button onclick="calculadora.ms()" class="ext">MS</button>
+                </td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora.pow2()">x<sup>2</sup></button></td>
+                <td><button onclick="calculadora.powY()">x<sup>y</sup></button></td>
+                <td><button onclick="calculadora.sin()">sin</button></td>
+                <td><button onclick="calculadora.cos()">cos</button></td>
+                <td><button onclick="calculadora.tan()">tan</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora.sqrt()">√</button></td>
+                <td><button onclick="calculadora.exp10()">10<sup>x</sup></button></td>
+                <td><button onclick="calculadora.log()">log</button></td>
+                <td><button onclick="calculadora.exp()">Exp</button></td>
+                <td><button onclick="calculadora.mod()">Mod</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora.up()">↑</button></td>
+                <td><button onclick="calculadora.ce()">CE</button></td>
+                <td><button onclick="calculadora.c()">C</button></td>
+                <td><button onclick="calculadora.erease()">⌫</button></td>
+                <td><button onclick="calculadora.div()">÷</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora.pi()">π</button></td>
+                <td><button onclick="calculadora.number(7)">7</button></td>
+                <td><button onclick="calculadora.number(8)">8</button></td>
+                <td><button onclick="calculadora.number(9)">9</button></td>
+                <td><button onclick="calculadora.mul()">X</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora.n()">n!</button></td>
+                <td><button onclick="calculadora.number(4)">4</button></td>
+                <td><button onclick="calculadora.number(5)">5</button></td>
+                <td><button onclick="calculadora.number(6)">6</button></td>
+                <td><button onclick="calculadora.sub()">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora.plusminus()">±</button></td>
+                <td><button onclick="calculadora.number(1)" class="num">1</button></td>
+                <td><button onclick="calculadora.number(2)" class="num">2</button></td>
+                <td><button onclick="calculadora.number(3)" class="num">3</button></td>
+                <td><button onclick="calculadora.add()" class="num">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="calculadora.leftPar()">(</button></td>
+                <td><button onclick="calculadora.rightPar()">)</button></td>
+                <td><button onclick="calculadora.number(0)" class="num">0</button></td>
+                <td><button onclick="calculadora.punto()" class="num">,</button></td>
+                <td><button onclick="calculadora.eq()">=</button></td>
+            </tr>
+            
+        </table>
+    </body>
+</html>

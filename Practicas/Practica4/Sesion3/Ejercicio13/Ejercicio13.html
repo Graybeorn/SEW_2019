@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 13</title>
+    <link rel="stylesheet" href="Ejercicio13.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="Ejercicio13.js"></script>
+</head>
+<body>
+    <section>
+        <h1>Lector de archivos</h1>
+        <nav>
+            <input type="file" id="file" onchange="lector.loadFile(this.files[0])"/>
+        </nav>
+        <dl id="list">
+            <dt id="nombre"></dt>
+            <dd id="contenido"></dd>
+        </dl>
+        <p id="error"></p>
+    </section>
+</body>

@@ -1,0 +1,49 @@
+body{
+    background: white
+}
+
+table{
+    background: rgb(212, 210, 210);
+    box-sizing: border-box;
+    border: 1px rgb(212, 210, 210);
+}
+
+td,th{
+    background: rgb(212, 210, 210);
+    border: 1px rgb(212, 210, 210);
+}
+
+th{
+    height:40px;
+}
+
+td{
+    background: rgb(212, 210, 210);
+}
+
+
+button{
+    height:40px;
+    width: 60px;
+    background:rgb(233, 233, 233);
+    color: black;
+    border:none;
+    box-shadow: none;
+    --webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+button.ext{
+    background: rgb(212, 210, 210);
+    color: black;
+}
+
+button.num{
+    background:rgb(255, 255, 255);
+    color: black;
+}
+
+#screen {
+    text-align:right;
+    height:40px;
+}

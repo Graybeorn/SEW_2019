@@ -1,0 +1,21 @@
+<current>
+<city id="2643743" name="London">
+<coord lon="-0.13" lat="51.51"/>
+<country>GB</country>
+<timezone>3600</timezone>
+<sun rise="2019-09-23T05:47:32" set="2019-09-23T17:58:36"/>
+</city>
+<temperature value="291.15" min="289.15" max="293.71" unit="kelvin"/>
+<humidity value="55" unit="%"/>
+<pressure value="1012" unit="hPa"/>
+<wind>
+<speed value="5.1" unit="m/s" name="Gentle Breeze"/>
+<gusts/>
+<direction value="240" code="WSW" name="West-southwest"/>
+</wind>
+<clouds value="40" name="scattered clouds"/>
+<visibility value="10000"/>
+<precipitation mode="no"/>
+<weather number="521" value="shower rain" icon="09d"/>
+<lastupdate value="2019-09-23T10:56:30"/>
+</current>

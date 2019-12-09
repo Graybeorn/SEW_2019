@@ -135,5 +135,3 @@ class CalculadoraBasica{
         this.memory[this.memory.length-1] = +(eval(this.memory[this.memory.length-1])) - (eval(this.currentNum));
     }
 }
-
-var calculadora = new Calculadora();

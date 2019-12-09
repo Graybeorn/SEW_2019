@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang=es>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Ejercicio 6</title>
+        <link rel="stylesheet" type="text/css" href="juego.css">
+        <script src="juego.js"></script>
+    </head>
+    <body>
+        <h1>¡Bienvenido a piedra, papel, tijeras!</h1>
+        <p>Escoge una opcion de la barra superior de imágenes, y la máquina hará lo mismo. Gana el mejor de 3 rondas.</p>
+        <canvas id="puntuacion" width="900" height="100"></canvas>
+        <table>
+            <tr>
+                <td><input type="image" onclick="juego.seleccionPiedra()" class="user" id="piedra" src="resources/piedra.png" alt="piedra"></input></td>
+                <td><input type="image" onclick="juego.seleccionPapel()" class="user" id="papel" src="resources/papel.png" alt="papel"></input></td>
+                <td><input type="image" onclick="juego.seleccionTijera()" class="user" id="tijera" src="resources/tijeras.png" alt="tijeras"></input></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><input type="image" id="mPiedra" disabled src="resources/piedra.png" alt="piedra"></input></td>
+                <td><input type="image" id="mPapel" src="resources/papel.png" alt="papel"></input></td>
+                <td><input type="image" id = "mTijera" src="resources/tijeras.png" alt="tijeras"></input></td>         
+            </tr>
+        </table>
+        <button onclick="juego.jugar()" id="jugar">Jugar</button>
+        <button onclick="juego.reiniciar()" id="reiniciar">Reiniciar</button>
+            
+    </body>
+</html>

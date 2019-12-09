@@ -4,12 +4,13 @@
         <meta charset="UTF-8"/>
         <title>Calculadora básica</title>
         <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css">
+        <script src="CalculadoraBasica.js"></script>
     </head>
     <body>
         <h1>Calculadora Básica</h1>
         <table>
             <tr>
-                <th id="screen" colspan="4"></th>
+                <th colspan="4"><p id="screen"></p></th>
             </tr>
             <tr>
                 <td><button onclick="calculadora.mrc()" id="mrc" class="util">mrc</button></td>
@@ -37,7 +38,7 @@
             </tr>
             <tr>
                 <td><button onclick="calculadora.number(0)" id="0" class="num">0</button></td>
-                <td><button onclick="calculadora.dot()" id="dot" class="num">.</button></td>
+                <td><button onclick="calculadora.punto()" id="dot" class="num">.</button></td>
                 <td><button onclick="calculadora.c()" id="c" class="num">c</button></td>
                 <td><button onclick="calculadora.eq()" id="eq" class="num">=</button></td>
             </tr>

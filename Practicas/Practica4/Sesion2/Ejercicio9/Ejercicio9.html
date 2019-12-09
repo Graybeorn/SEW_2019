@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 9</title>
+    <link rel="stylesheet" href="Ejercicio9.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>El tiempo</h1>
+    <h2>Escoge una ciudad</h2>
+    <nav>
+        <button onclick="climate.getWeather('Oviedo')">Oviedo</button>
+        <button onclick="climate.getWeather('Barcelona')">Barcelona</button>
+        <button onclick="climate.getWeather('Madrid')">Madrid</button>
+        <button onclick="climate.getWeather('Valencia')">Valencia</button>
+        <button onclick="climate.getWeather('Salamanca')">Salamanca</button>
+    </nav>
+
+    <table id='table'>
+        <tr>
+            <th id="ciudad"></th>
+            <th>Clima</th>
+            <th>Temp</th>
+            <th>Max</th>
+            <th>Min</th>
+            <th>Presion</th>
+            <th>Humedad</th>
+            <th>Viento</th>
+        </tr>
+        <tr>
+            <td><img id='imgClima' alt="miniatura del clima" src=""></td>
+            <td><p id='clima'></p></td>
+            <td><p id='temp'></p></td>
+            <td><p id='max'></p></td>
+            <td><p id='min'></p></td>
+            <td><p id='presion'></p></td>
+            <td><p id='humedad'></p></td>
+            <td><p id='viento'></p></td>
+        </tr>
+    </table>
+
+
+    <script src="Ejercicio9.js"></script>
+</body>
